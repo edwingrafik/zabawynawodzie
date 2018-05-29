@@ -1,0 +1,16 @@
+<div class="col-12 text-center mt-5 mb-5">
+  <h2>Lookbook</h2>
+</div>
+<div class="row no-gutters">
+  {% for item in site.photos limit:9 %}
+  <div class="col-md-4">
+    <div class="lookbook-parent">
+      <a href="/img/{{ item }}" data-lightbox="example-set" data-title="{{ site.lightbox-tip }}">
+        <div class="lookbook-child" style="background-image: url('/img/{{ item }}')">
+          <i class="fas fa-search"></i>
+        </div>
+      </a>
+    </div>
+  </div>
+  {% endfor %}
+</div>

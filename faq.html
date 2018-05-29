@@ -1,0 +1,21 @@
+---
+layout: page
+title: FAQ
+permalink: /faq/
+---
+<div class="col d-none d-lg-block">
+  <img class="img-fluid" src="/img/IMG_1659-copy.jpg" alt="">
+</div>
+<div class="col">
+  <h2>{{ page.title }}</h2>
+  <h4>Zamowienia hurtowe - najczęściej zadawane pytania</h4>
+  <br>
+  <ol>
+    {% for item in site.faq %}
+    <li>
+      <b>{{ item.question }}</b>
+      <p>{{ item.answer }}</p>
+    </li>
+    {% endfor %}
+  </ol>
+</div>

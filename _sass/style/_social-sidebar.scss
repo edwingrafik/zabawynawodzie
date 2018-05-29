@@ -1,0 +1,87 @@
+.social-sidebar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.social-sidebar {
+	right: 0;
+	margin-top: -75px;
+	position: fixed;
+	top: 50%;
+  z-index: 2002;
+}
+
+
+.social-sidebar li:first-child a { /*This curves top right edge of the top most box*/
+  border-radius: 5px 0 0 0;
+}
+.social-sidebar li:last-child a { /*This curves bottom right edge of the bottom most box*/
+  border-radius: 0 0 0 5px;
+}
+
+.social-sidebar a {
+	background: $text-color; /*Background color of buttons*/
+	color: #fff; /*color of text*/
+	display: block;
+	height: 50px;
+	font-size: 18px; /*font size of the hover text*/
+	line-height: 50px;
+	position: relative;
+	text-align: center;
+	width: 50px;
+}
+.social-sidebar i {
+  font-size: 24px; /*size of the icons*/
+}
+/*distance the hover text pops out*/
+.social-sidebar a:hover span {
+	right: 130%;
+	opacity: 1;
+}
+/*The is the text the pops out on hover*/
+.social-sidebar a span {
+	border-radius: 3px;
+	line-height: 24px;
+	left: -260%;
+	margin-top: -16px;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	padding: 4px 8px;
+	position: absolute;
+	-webkit-transition: opacity .3s, left .4s;
+	-moz-transition: opacity .3s, left .4s;
+	-ms-transition: opacity .3s, left .4s;
+	-o-transition: opacity .3s, left .4s;
+	transition: opacity .3s, left .4s;
+	top: 50%;
+  white-space: nowrap;
+	z-index: -1;
+}
+
+.social-sidebar a span:before {
+	content: "";
+	display: block;
+	height: 8px;
+	right: -4px;
+	margin-top: -4px;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	width: 8px;
+	z-index: -2;
+}
+
+
+.social-sidebar a[class*="facebook"]:hover,
+.social-sidebar a[class*="facebook"] span,
+.social-sidebar a[class*="facebook"] span:before { background: #3b5998; }
+
+.social-sidebar a[class*="instagram"]:hover,
+.social-sidebar a[class*="instagram"] span,
+.social-sidebar a[class*="instagram"] span:before { background: #bf182f; }

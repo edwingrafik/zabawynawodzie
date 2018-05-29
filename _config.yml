@@ -1,0 +1,160 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Dresoowka
+email: dresoowka@gmail.com
+phone: +48 731-664-378
+address_1: ul. Dąbkowskiego 51 lokal 3b
+address_2: 42-202 Częstochowa
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+brand-color: d98cff
+
+social:
+  - social-media: facebook
+    social-url: https://www.facebook.com/dresoowka/
+    icon: fab fa-facebook-square
+
+  - social-media: instagram
+    social-url: https://www.instagram.com/explore/tags/dresoowka/
+    icon: fab fa-instagram
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+nav:
+  - title: O nas
+    url: o-nas
+
+  - title: Oferta
+    url: oferta
+
+  - title: Lookbook
+    url: lookbook
+
+  - title: FAQ
+    url: faq
+
+  - title: Kontakt
+    url: kontakt
+
+copyrights: Marta Saran
+authors: www.code-nuts.com
+authors-external-url: https://www.code-nuts.com/
+lightbox-tip: Kliknij bok, aby zobaczyć następne zdjęcie
+
+header_pages:
+ - o-nas.html
+ - oferta.html
+ - lookbook.html
+ - faq.html
+ - kontakt.html
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+photos:
+  - IMG_1340-copy.jpg
+  - IMG_1348-copy.jpg
+  - IMG_1361-copy.jpg
+  - IMG_1378-copy.jpg
+  - IMG_1394-copy.jpg
+  - IMG_1398-copy.jpg
+  - IMG_1412-copy.jpg
+  - IMG_1420-copy.jpg
+  - IMG_1429-copy.jpg
+  - IMG_1434-copy.jpg
+  - IMG_1436-copy.jpg
+  - IMG_1455-copy.jpg
+  - IMG_1463-copy.jpg
+  - IMG_1481-copy.jpg
+  - IMG_1487-copy.jpg
+  - IMG_1509-copy.jpg
+  - IMG_1555-copy.jpg
+  - IMG_1577-copy.jpg
+  - IMG_1586-copy.jpg
+  - IMG_1610-copy.jpg
+  - IMG_1633-copy.jpg
+  - IMG_1659-copy.jpg
+  - IMG_1672-copy.jpg
+  - IMG_1680-copy.jpg
+  - IMG_1685-copy.jpg
+  - IMG_1687-copy.jpg
+  - IMG_1699-copy.jpg
+  - IMG_1706-copy.jpg
+  - IMG_1717-copy.jpg
+  - IMG_1731-copy.jpg
+  - IMG_1751-copy.jpg
+  - DSC02356.jpg
+  - DSC02357.jpg
+  - DSC02360.jpg
+  - DSC02364.jpg
+  - DSC02371.jpg
+  - DSC02381.jpg
+  - DSC02389.jpg
+  - DSC02424.jpg
+  - DSC02433.jpg
+  - DSC02439.jpg
+  - DSC02451.jpg
+
+faq:
+  - question: Jak zamówić?
+    answer: Za pośrednictwem Facebooka, telefonicznie, mailowo - wysyłają Państwo wiadomość z zapotrzebowaniem. Ustalamy szczegóły, termin realizacji, płatność.
+
+  - question: Ile sztuk muszę zamówić?
+    answer: Min. 10 sztuk, wybranych rozmiarów – nie musi to być pełna rozmiarówka
+
+  - question: Kiedy płacę za zamówienie?
+    answer: Ponieważ szyjemy na zamówienie preferujemy przedpłatę na konto.
+
+  - question: Czy otrzymam fakturę?
+    answer: Tak – jesteśmy legalnie działającą firmą co można zweryfikować w CEiDG pod nazwą MARTA SARAN DESIGNES i o nr NIP 9492055045, wystawiamy FV do każdego zamówienia dlatego też kwoty powiększane są o 23% VAT.
+
+  - question: Jak długo będę czekać na realizację zamówienia?
+    answer: Aktualnie termin oczekiwania na zamówienie to ok półtora tygodnia od momentu potwierdzenia zamówienia i otrzymania przez nas Państwa wpłaty. Jesteśmy natomiast w trakcie rozmów z kolejnymi podwykonawcami, dążymy do tego aby skrócić okres oczekiwania na zamówienie.
+
+  - question: Czy mogę domówić pojedyncze sztuki?
+    answer: Tak, jest taka możliwość jeśli dokonali Państwo już u nas zamówienia wcześniej na pełną rozmiarówkę natomiast trzeba się liczyć z tym, że będą one krojone przy okazji innych zamówień dlatego z góry nie określamy tutaj okresu oczekiwania.
+
+  - question: Co z wysyłką?
+    answer: "Koszty wysyłki leżą po stronie kupującego, korzystamy z usług różnych firm, najczęściej jest to firma Geis, na życzenie klienta korzystamy również z usług kurierskich firm: DPD, UPS, DHL, FedEx, Kurier InPost. Koszty wysyłki wahają się między 13,90 – 19,90 brutto (zależy od wybranego przewoźnika, wagi i gabarytów, dlatego koszty te podaję podczas podliczania Państwa zamówienia)."
+
+  - question: Czy mogę korzystać ze zdjęć zamieszczanych na grupie i fanpage’u Dresoowki?
+    answer: Ze wszystkich zdjęć umieszczanych na grupie można korzystać wyłącznie w celu zebrania zamówień od klientów bądź sprawdzenia zainteresowania danym produktem. Natomiast aby skorzystać ze zdjęć umieszczanych na naszym fanpage’u każdorazowo prosimy o zapytanie.
+
+  - question: Czy ubrania przez nas projektowane są polskiej produkcji?
+    answer: Tak. Produkujemy w Polsce i korzystamy z dzianin najlepszej jakości od polskich producentów.
+
+  - question: Czy jest sugerowana cena sprzedaży zamówionych produktów?
+    answer: Nie narzucamy za ile mają Państwo wystawiać nasze produkty jednak sugerujemy aby cena była minimum dwukrotnością wartości netto jaką Państwo płacą za nasz produkt. Szyjąc nasze ubrania dokładamy wszelkich starań aby ich jakość była najlepsza. W tej kwestii nie idziemy na żadne ustępstwa, dlatego też nie możemy pozwolić sobie na zaniżanie cen zarówno produkcji jak i późniejszej sprzedaży.
+
+  - question: Czy mogę zamówić produkty, które aktualnie nie są dostępne w sprzedaży hurtowej ale pojawiły się na stronie Dresoowki?
+    answer: Tak, prosimy o wiadomość w tej sprawie. Określimy możliwości realizacji. Przygotujemy wycenę.

@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+$mobile: 320px;
+$tablet: 768px;
+$laptop: 1024px;
+$desktop: 1440px;
+$monitor: 2560px;
+
+$red: #d98cff;
+$beige: #F1FAEE;
+$green: #A8DADC;
+$navy-light: #457B9D;
+$navy: #1D3557;
+
+$base-font-size: 0.75rem;
+$base-line-height: 1.75;
+$header-line-height: 1.25;
+$base-spacing: $base-font-size;
+$base-font-family: 'Comfortaa', sans-serif;
+$base-font-weight: 400;
+$text-color: slategray;
+$background-color: white;
+$brand-color: $red;
+
+@import
+  "style/base",
+  "style/layout",
+  "style/syntax-highlighting",
+  "style/lightbox",
+  "style/social-sidebar",
+  "style/lookbook"
+;

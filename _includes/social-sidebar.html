@@ -1,0 +1,12 @@
+<nav class="social-sidebar d-none d-sm-block">
+  <ul>
+    {% for item in site.social %}
+    <li>
+      <a href="{{ item.social-url }}" class="{{ item.social-media }}" target="_blank">
+        <i class="{{ item.icon }}"></i>
+        <span>{{ item.social-media }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

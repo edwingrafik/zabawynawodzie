@@ -1,0 +1,50 @@
+.nav {
+  @media (max-width: $tablet) {
+    display: block;
+    text-align: center;
+  }
+}
+
+.navbar {
+  @media (min-width: $monitor) {
+    padding-left: 18%;
+  }
+}
+
+header .nav-link {
+  text-shadow: 0 2px white;
+  text-transform: uppercase;
+}
+
+.hover-links:hover {
+  color: $brand-color !important;
+  text-shadow: 0px 1px 2px whitesmoke, 0 0 1em $brand-color, 0 0 0.1em $brand-color;
+  text-decoration: none !important;
+}
+
+.hover-svg:hover {
+  filter: drop-shadow(0px 0px 1px $text-color) !important;
+}
+
+.svg-color {
+  -webkit-filter: invert(60%);
+  filter: invert(60%);
+}
+
+.hero-img {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.page-logo {
+  width: 30px;
+}
+
+.site-footer {
+  @media (max-width: $tablet) {
+    display: inline-grid;
+  }
+}
