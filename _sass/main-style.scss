@@ -16,7 +16,7 @@ $base-font-size: 0.75rem;
 $base-line-height: 1.75;
 $header-line-height: 1.25;
 $base-spacing: $base-font-size;
-$base-font-family: 'Comfortaa', sans-serif;
+$base-font-family: 'Raleway', sans-serif;
 $base-font-weight: 400;
 $text-color: slategray;
 $background-color: white;
@@ -27,6 +27,5 @@ $brand-color: $red;
   "style/layout",
   "style/syntax-highlighting",
   "style/lightbox",
-  "style/social-sidebar",
-  "style/lookbook"
+  "style/social-sidebar"
 ;
