@@ -52,21 +52,21 @@ body {
 
 main {
   flex: 1 1 auto;
-  @media (min-width: $mobile) {
-    margin: 0 2%;
-  }
-  @media (min-width: $tablet) {
-    margin: 0 4%;
-  }
-  @media (min-width: $laptop) {
-    margin: 0 8%;
-  }
-  @media (min-width: $desktop) {
-    margin: 0 12%;
-  }
-  @media (min-width: $monitor) {
-    margin: 0 18%;
-  }
+  // @media (min-width: $mobile) {
+  //   margin: 0 2%;
+  // }
+  // @media (min-width: $tablet) {
+  //   margin: 0 4%;
+  // }
+  // @media (min-width: $laptop) {
+  //   margin: 0 8%;
+  // }
+  // @media (min-width: $desktop) {
+  //   margin: 0 12%;
+  // }
+  // @media (min-width: $monitor) {
+  //   margin: 0 18%;
+  // }
 }
 
 section, footer {
