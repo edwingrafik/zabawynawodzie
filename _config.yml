@@ -28,11 +28,11 @@ brand-color: d98cff
 
 social:
   - social-media: facebook
-    social-url: https://www.facebook.com/dresoowka/
+    social-url: #
     icon: fab fa-facebook-square
 
   - social-media: instagram
-    social-url: https://www.instagram.com/explore/tags/dresoowka/
+    social-url: #
     icon: fab fa-instagram
 
 # Build settings
@@ -45,7 +45,7 @@ nav:
   - title: O nas
     url: o-nas
 
-copyrights: Marta Saran
+copyrights: Zabawy na Wodzie
 authors: www.edwingrafik.com
 authors-external-url: https://edwingrafik.com/
 

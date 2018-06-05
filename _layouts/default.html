@@ -2,21 +2,15 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
   <body>
-    {% include social-sidebar.html %}
+    <!-- {% include social-sidebar.html %} -->
+    {% include header.html %}
     <wrapper class="d-flex flex-column">
-      {% include header.html %}
+
       <main class="d-flex justify-content-between">
-
-          <div class="col">Flex item</div>
-          <div class="col">Flex item</div>
-          <div class="col">Flex item</div>
-
-        <!-- <div class="">Flex item</div>
-        <div class="">Flex item</div>
-        <div class="">Flex item</div> -->
+        {% include image-experiment.html %}
       </main>
       {{ content }}
-      {% include footer.html %}
+      <!-- {% include footer.html %} -->
     </wrapper>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
