@@ -26,6 +26,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 brand-color: d98cff
 
+logo:
+  - file: baseline-verified_user-24px.svg
+    alt: logo-01
+
+  - file: baseline-stars-24px.svg
+    alt: logo-01
+
 social:
   - social-media: facebook
     social-url: #

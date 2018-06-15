@@ -40,3 +40,15 @@ header .nav-link {
     display: inline-grid;
   }
 }
+
+aside {
+  background-color: $navy;
+  height: 100vh;
+}
+
+.side-logo {
+  display: table;
+  padding: $base-spacing*2;
+  margin-left: auto;
+  margin-right: auto;
+}
