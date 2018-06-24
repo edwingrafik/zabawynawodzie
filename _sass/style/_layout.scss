@@ -42,7 +42,7 @@ header .nav-link {
 }
 
 aside {
-  background-color: $navy;
+  background-color: $dark;
   height: 100%;
   min-height: 100vh;
 }
@@ -78,12 +78,12 @@ aside {
   position: absolute;
   top: 50%;
   left: 0px;
-  transform: translate(0%, -50%);
+  transform: translate(3%, -50%);
   z-index: 2001;
 }
 
 .hero-title h2 {
-  background-color: $navy;
+  background-color: $dark;
   padding: $base-spacing;
   color: white;
 }

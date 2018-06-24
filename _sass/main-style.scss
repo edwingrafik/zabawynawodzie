@@ -6,19 +6,21 @@ $laptop: 1024px;
 $desktop: 1440px;
 $monitor: 2560px;
 
-$red: #d98cff;
-$beige: #F1FAEE;
-$green: #A8DADC;
-$navy-light: #457B9D;
-$navy: #1D3557;
+$yellow: #ffd909;
+$orange: #ff8a48;
+$red: #ff5f6a;
+$purple: #c23cb2;
+$light: #f4f3f1;
+$dark: #2b2b2b;
+$text: slategray;
 
 $base-font-size: 0.75rem;
 $base-line-height: 1.75;
 $header-line-height: 1.25;
 $base-spacing: $base-font-size;
-$base-font-family: 'Raleway', sans-serif;
+$base-font-family: 'Ubuntu', sans-serif;
 $base-font-weight: 400;
-$text-color: slategray;
+$text-color: $text;
 $background-color: white;
 $brand-color: $red;
 
