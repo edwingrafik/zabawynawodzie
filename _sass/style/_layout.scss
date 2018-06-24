@@ -43,7 +43,8 @@ header .nav-link {
 
 aside {
   background-color: $navy;
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
 }
 
 .side-logo {
@@ -51,4 +52,46 @@ aside {
   padding: $base-spacing*2;
   margin-left: auto;
   margin-right: auto;
+}
+
+#hero-hero {
+  height: 75vh;
+}
+
+.hero-item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35vh;
+  position: relative;
+  margin-left: $base-spacing;
+  margin-right: $base-spacing;
+  margin-top: $base-spacing*2;
+  margin-bottom: $base-spacing*2;
+
+  &:hover {
+    box-shadow: 10px 10px 0 $text-color;
+    transition: .3s;
+  }
+}
+
+.hero-title {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translate(0%, -50%);
+  z-index: 2001;
+}
+
+.hero-title h2 {
+  background-color: $navy;
+  padding: $base-spacing;
+  color: white;
+}
+
+.hero-title h4 {
+  background-color: $red;
+  padding: $base-spacing;
+  color: white;
+
+  width: -moz-fit-content;
 }
