@@ -1,0 +1,64 @@
+<svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
+  <filter id="duotone_peachypink">
+    <feColorMatrix type="matrix" result="grayscale"
+      values="1 0 0 0 0
+              1 0 0 0 0
+              1 0 0 0 0
+              0 0 0 1 0" />
+
+    <feComponentTransfer color-interpolation-filters="sRGB" result="duotone_magenta_gold">
+      <feFuncR type="table" tableValues="0.7411764706 0.9882352941"></feFuncR>
+      <feFuncG type="table" tableValues="0.0431372549 0.7333333333"></feFuncG>
+      <feFuncB type="table" tableValues="0.568627451 0.05098039216"></feFuncB>
+      <feFuncA type="table" tableValues="0 1"></feFuncA>
+    </feComponentTransfer>
+  </filter>
+
+  <animate xlink:href="#neutral" attributeName="stdDeviation"
+    from="10" to="30" dur="3s" begin="0s" repeatCount="indefinite"/>
+</svg>
+
+
+<svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
+  <filter id="yellow-red">
+    <feColorMatrix type="matrix" result="grayscale"
+      values="1 0 0 0 0
+              1 0 0 0 0
+              1 0 0 0 0
+              0 0 0 1 0" />
+
+    <feComponentTransfer color-interpolation-filters="sRGB" result="yellow--red">
+      <feFuncR type="table" tableValues="0.9999 0.9999"></feFuncR>
+      <feFuncG type="table" tableValues="0.3725 0.8509"></feFuncG>
+      <feFuncB type="table" tableValues="0.4156 0.0352"></feFuncB>
+      <feFuncA type="table" tableValues="0 1"></feFuncA>
+    </feComponentTransfer>
+  </filter>
+</svg>
+
+<svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
+  <filter id="yellow-purple">
+    <feColorMatrix type="matrix" result="grayscale"
+      values="1 0 0 0 0
+              1 0 0 0 0
+              1 0 0 0 0
+              0 0 0 1 0" />
+
+    <feComponentTransfer color-interpolation-filters="sRGB" result="yellow--purple">
+      <feFuncR type="table" tableValues="0.7607 0.9999"></feFuncR>
+      <feFuncG type="table" tableValues="0.2352 0.8509"></feFuncG>
+      <feFuncB type="table" tableValues="0.6980 0.0352"></feFuncB>
+      <feFuncA type="table" tableValues="0 1"></feFuncA>
+    </feComponentTransfer>
+  </filter>
+</svg>
+
+<svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
+  <filter id="neutral">
+    <feColorMatrix type="matrix" result="grayscale"
+      values="1 0 0 0 0
+              0 1 0 0 0
+              0 0 1 0 0
+              0 0 0 1 0" />
+  </filter>
+</svg>

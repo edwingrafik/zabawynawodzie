@@ -1,0 +1,104 @@
+.hero-content {
+}
+
+.hero-item {
+  position: relative;
+}
+
+.hero-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: inherit;
+  height: inherit;
+
+  &:hover {
+    box-shadow: 10px 10px 0 $dark;
+    filter: url('#neutral');
+    transition: all $animation ease;
+  }
+}
+
+.hero-title {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, 80%);
+  z-index: 2001;
+}
+
+.hero-title h2 {
+  background-color: $dark;
+  padding: $base-spacing;
+  color: white;
+}
+
+.hero-title h6 {
+  background-color: $red;
+  padding: $base-spacing;
+  color: white;
+}
+
+#wakeboard {
+  height: 53vh;
+  .hero-img {
+    margin-top: $base-spacing*2;
+    margin-right: $base-spacing;
+    margin-bottom: $base-spacing;
+    margin-left: $base-spacing*2;
+  }
+  .hero-title {
+    transform: translate(0%, 160%);
+    left: $base-spacing*2;
+  }
+}
+#water-ski {
+  height: 25vh;
+  .hero-img {
+    margin-top: $base-spacing*2;
+    margin-right: $base-spacing*2;
+    margin-bottom: $base-spacing*2;
+    margin-left: $base-spacing;
+  }
+  .hero-title {
+    transform: translate(0%, 60%);
+    left: $base-spacing;
+  }
+}
+#tubbing {
+  height: 25vh;
+  .hero-img {
+    margin-top: $base-spacing;
+    margin-right: $base-spacing*2;
+    margin-bottom: $base-spacing;
+    margin-left: $base-spacing;
+  }
+  .hero-title {
+    transform: translate(0%, 40%);
+    left: $base-spacing;
+  }
+}
+#banana {
+  height: 35vh;
+  .hero-img {
+    margin-top: $base-spacing;
+    margin-right: $base-spacing;
+    margin-bottom: $base-spacing;
+    margin-left: $base-spacing*2;
+  }
+  .hero-title {
+    transform: translate(0%, 100%);
+    left: $base-spacing*2;
+  }
+}
+#motorboat {
+  height: 35vh;
+  .hero-img {
+    margin-top: $base-spacing;
+    margin-right: $base-spacing*2;
+    margin-bottom: $base-spacing;
+    margin-left: $base-spacing;
+  }
+  .hero-title {
+    transform: translate(0%, 100%);
+    left: $base-spacing;
+  }
+}

@@ -74,3 +74,35 @@ header_pages:
 images:
   - file:
     alt:
+
+
+hero:
+  - file: steven-welch-124749-unsplash.jpg
+    title: Wakeboard
+    desc: Wakeboard Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+    filter: yellow--red
+    id: wakeboard
+
+  - file: caleb-vandenheuvel-407861-unsplash.jpg
+    title: Narty wodne
+    desc: Narty wodne Lorem ipsum dolor
+    filter:
+    id: water-ski
+
+  - file: 33944106_2116176085327162_1685665829208719360_o.jpg
+    title: Koło
+    desc: Koło Lorem ipsum dolor
+    filter:
+    id: tubbing
+
+  - file: IMG_20150801_121529.jpg
+    title: Banan
+    desc: Banan Lorem ipsum dolor
+    filter:
+    id: banana
+
+  - file: kolo11.jpg
+    title: Przejażdżki motorowką
+    desc: Przejażdżki motorowką Lorem ipsum dolor
+    filter:
+    id: motorboat

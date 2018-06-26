@@ -1,3 +1,16 @@
 .duotoned--peachy {
   filter: url('#duotone_peachypink');
+  -webkit-filter: url('#duotone_peachypink');
+}
+.yellow--red {
+  filter: url('#yellow-red');
+  -webkit-filter: url('#yellow-red');
+}
+.yellow--purple {
+  filter: url('#yellow-purple');
+  -webkit-filter: url('#yellow-purple');
+}
+.purple--filter {
+  filter: url('#neutral');
+  -webkit-filter: url('#neutral');
 }

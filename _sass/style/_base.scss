@@ -125,6 +125,7 @@ li {
 a {
   color: $text-color;
   text-decoration: none;
+  white-space: nowrap;
 
   &:visited {
     color: $text-color;
