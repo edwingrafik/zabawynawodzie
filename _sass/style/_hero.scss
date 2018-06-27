@@ -8,12 +8,12 @@
 .hero-img {
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   width: inherit;
   height: inherit;
 
   &:hover {
     box-shadow: 10px 10px 0 $dark;
-    filter: url('#neutral');
     transition: all $animation ease;
   }
 }
@@ -32,9 +32,9 @@
 }
 
 .hero-title h6 {
-  background-color: $red;
   padding: $base-spacing;
   color: white;
+  width: fit-content;
 }
 
 #wakeboard {
@@ -44,10 +44,16 @@
     margin-right: $base-spacing;
     margin-bottom: $base-spacing;
     margin-left: $base-spacing*2;
+    &:hover {
+      filter: url('#red-blue');
+    }
   }
   .hero-title {
     transform: translate(0%, 160%);
     left: $base-spacing*2;
+    h6 {
+      background-color: $red;
+    }
   }
 }
 #water-ski {
@@ -57,10 +63,16 @@
     margin-right: $base-spacing*2;
     margin-bottom: $base-spacing*2;
     margin-left: $base-spacing;
+    &:hover {
+      filter: url('#yellow-orange');
+    }
   }
   .hero-title {
     transform: translate(0%, 60%);
     left: $base-spacing;
+    h6 {
+      background-color: $orange;
+    }
   }
 }
 #tubbing {
@@ -70,10 +82,16 @@
     margin-right: $base-spacing*2;
     margin-bottom: $base-spacing;
     margin-left: $base-spacing;
+    &:hover {
+      filter: url('#green-blue');
+    }
   }
   .hero-title {
     transform: translate(0%, 40%);
     left: $base-spacing;
+    h6 {
+      background-color: #4db6ac;
+    }
   }
 }
 #banana {
@@ -83,10 +101,16 @@
     margin-right: $base-spacing;
     margin-bottom: $base-spacing;
     margin-left: $base-spacing*2;
+    &:hover {
+      filter: url('#yellow-pink');
+    }
   }
   .hero-title {
     transform: translate(0%, 100%);
     left: $base-spacing*2;
+    h6 {
+      background-color: $yellow;
+    }
   }
 }
 #motorboat {
@@ -96,9 +120,15 @@
     margin-right: $base-spacing*2;
     margin-bottom: $base-spacing;
     margin-left: $base-spacing;
+    &:hover {
+      filter: url('#blue-aqua');
+    }
   }
   .hero-title {
     transform: translate(0%, 100%);
     left: $base-spacing;
+    h6 {
+      background-color: aqua;
+    }
   }
 }

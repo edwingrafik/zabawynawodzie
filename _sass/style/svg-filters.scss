@@ -1,16 +1,24 @@
-.duotoned--peachy {
-  filter: url('#duotone_peachypink');
-  -webkit-filter: url('#duotone_peachypink');
-}
-.yellow--red {
-  filter: url('#yellow-red');
-  -webkit-filter: url('#yellow-red');
-}
-.yellow--purple {
-  filter: url('#yellow-purple');
-  -webkit-filter: url('#yellow-purple');
-}
-.purple--filter {
+.filter--neutral {
   filter: url('#neutral');
   -webkit-filter: url('#neutral');
+}
+.filter--yellow-orange {
+  filter: url('#yellow-orange');
+  -webkit-filter: url('#yellow-orange');
+}
+.filter--red-blue {
+  filter: url('#red-blue');
+  -webkit-filter: url('#red-blue');
+}
+.filter--green-blue {
+  filter: url('#green-blue');
+  -webkit-filter: url('#green-blue');
+}
+.filter--yellow-pink {
+  filter: url('#yellow-pink');
+  -webkit-filter: url('#yellow-pink');
+}
+.filter--blue-aqua {
+  filter: url('#blue-aqua');
+  -webkit-filter: url('#blue-aqua');
 }
