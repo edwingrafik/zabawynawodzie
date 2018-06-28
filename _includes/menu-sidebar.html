@@ -1,7 +1,7 @@
 <aside class="sidebar-container">
   {% for item in site.logo %}
-  <a class="side-logo" href="{{ " / " | relative_url }}">
-    <img src="/assets/{{ item.file }}" alt="{{ item.alt }}" class="">
+  <a class="side-logo" href="{{ "/" | relative_url }}">
+    <img src="/img/{{ item.file }}" alt="{{ item.alt }}" class="">
   </a>
   {% endfor %}
 </aside>

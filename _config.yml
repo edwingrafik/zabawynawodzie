@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Zabawy na Wodzie
+title: Zabawa na Wodzie
 email: zabawynawodzie@gmail.com
 phone: +48 555 997 666
 address_1: ul. Dąbkowskiego 51 lokal 3b
@@ -27,11 +27,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 brand-color: ff8a48
 
 logo:
-  - file: baseline-verified_user-24px.svg
-    alt: logo-01
+  - file: logo-wyblinka.svg
+    alt: logo-wyblinka
 
-  - file: baseline-stars-24px.svg
-    alt: logo-01
+  - file: logo-wyblinka.svg
+    alt: logo-wyblinka
 
 social:
   - social-media: facebook
