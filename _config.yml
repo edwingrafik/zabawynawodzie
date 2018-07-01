@@ -27,8 +27,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 brand-color: ff8a48
 
 logo:
-  - file: logo-wyblinka.svg
-    alt: logo-wyblinka
+  - file: logo-zabawy-na-wodzie.svg
+    alt: logo-zabawy-na-wodzie
 
   - file: logo-wyblinka.svg
     alt: logo-wyblinka
