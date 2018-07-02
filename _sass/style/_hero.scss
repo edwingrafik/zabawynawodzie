@@ -66,6 +66,25 @@
     }
   }
 }
+#sailing-archive {
+  height: 53vh;
+  .hero-img {
+    margin-top: $base-spacing*2;
+    margin-right: $base-spacing*2;
+    margin-bottom: $base-spacing;
+    margin-left: $base-spacing;
+    &:hover {
+      filter: url('#red-blue');
+    }
+  }
+  .hero-title {
+    transform: translate(0%, 160%);
+    left: $base-spacing;
+    h6 {
+      background-color: $red;
+    }
+  }
+}
 #water-ski {
   height: 25vh;
   .hero-img {
@@ -85,6 +104,25 @@
     }
   }
 }
+#sail-courses {
+  height: 25vh;
+  .hero-img {
+    margin-top: $base-spacing*2;
+    margin-right: $base-spacing;
+    margin-bottom: $base-spacing*2;
+    margin-left: $base-spacing*2;
+    &:hover {
+      filter: url('#yellow-orange');
+    }
+  }
+  .hero-title {
+    transform: translate(0%, 60%);
+    left: $base-spacing*2;
+    h6 {
+      background-color: $orange;
+    }
+  }
+}
 #tubbing {
   height: 25vh;
   .hero-img {
@@ -99,6 +137,25 @@
   .hero-title {
     transform: translate(0%, 40%);
     left: $base-spacing;
+    h6 {
+      background-color: #4db6ac;
+    }
+  }
+}
+#sailing {
+  height: 25vh;
+  .hero-img {
+    margin-top: $base-spacing;
+    margin-right: $base-spacing;
+    margin-bottom: $base-spacing;
+    margin-left: $base-spacing*2;
+    &:hover {
+      filter: url('#green-blue');
+    }
+  }
+  .hero-title {
+    transform: translate(0%, 40%);
+    left: $base-spacing*2;
     h6 {
       background-color: #4db6ac;
     }
