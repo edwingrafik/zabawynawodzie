@@ -9,6 +9,14 @@
           <a href="galeria"><i class="fa fa-fw fa-comment-o"></i><span>Galeria i Filmy</span></a>
           <a href="kontakt"><i class="fa fa-fw fa-comment-o"></i><span>Kontakt</span></a>
         </div>
+        <ul class="list-inline site-footer">
+            <li class="list-inline-item">
+              <small class="d-block">&copy {{ site.copyrights }}</small>
+            </li>
+            <li class="list-inline-item">
+              <small class="d-block">Projekt i wykonanie: <a href="{{ site.authors-external-url }}" class="hover-links">{{ site.authors }}</a></small>
+            </li>
+        </ul>
       </nav>
       <button class="close-button" id="close-button">Close Menu</button>
       <div class="morph-shape" id="morph-shape" data-morph-open="M0,100h1000V0c0,0-136.938,0-224,0C583,0,610.924,0,498,0C387,0,395,0,249,0C118,0,0,0,0,0V100z">

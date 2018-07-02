@@ -2,15 +2,21 @@
 permalink: kontakt
 layout: default
 ---
-<div class="map">
 
-</div>
-<div class="contact">
-  <p>
-    Dane kontaktowe:
-    Tomasz Odolski
-    e-mail: odolski.tomasz@poczta.fm
-    telefon: 784-199-711
-    Można się także kontaktować przez naszą stronę na FB: www.facebook.com/wyblinka/
-  </p>
+<div class="row no-gutters contact">
+  <div class="col-md-12">
+    <div class="blurb mt-5">
+      <h1 class="mb-3 text-uppercase font-weight-bold">Kontakt</h1>
+      <h5 class="pt-2 pb-2">Dane kontaktowe:</h5>
+    </div>
+    <div class="margin-left">
+      <span>Tomasz Odolski</span>
+      <br>
+      <span><b>e-mail: </b> <a href="mailto:{{ site.email }}" class="hover-links" target="_top">{{ site.email }}</a></span>
+      <br>
+      <span><b>telefon: </b><a href="tel:{{ site.phone }}" class="hover-links">{{ site.phone }}</a></span>
+      <br>
+      <span>Można się także kontaktować przez naszą stronę na FB: www.facebook.com/wyblinka/</span>
+    </div>
+  </div>
 </div>

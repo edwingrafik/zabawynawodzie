@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Zabawa na Wodzie
-email: zabawynawodzie@gmail.com
-phone: +48 555 997 666
+email: odolski.tomasz@poczta.fm
+phone: +48 784 199 711
 address_1: ul. Dąbkowskiego 51 lokal 3b
 address_2: 42-202 Nowy Sącz
 description: >- # this means to ignore newlines until "baseurl:"
