@@ -4,7 +4,7 @@ backend:
   branch: master
   site_domain: vibrant-rosalind-6163f5.netlify.com
 
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 
 media_folder: "images/uploads"
 
@@ -18,5 +18,5 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string"}
-      - {label: "Content", name: "content", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Title Image", name: "title-img", widget: "image"}
