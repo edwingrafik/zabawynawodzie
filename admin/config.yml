@@ -19,3 +19,4 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Content", name: "content", widget: "markdown"}
+      - {label: "Title Image", name: "title-img", widget: "image"}
