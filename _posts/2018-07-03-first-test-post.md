@@ -5,6 +5,6 @@ subtitle: Test post subtitle
 content: |-
   First post content.
 
-  ![](/images/uploads/e391a665170475.5aeafba52e620.jpg)
+  ![null](/images/uploads/e391a665170475.5aeafba52e620.jpg)
 ---
 
