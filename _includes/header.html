@@ -1,13 +1,22 @@
 <header id="header">
+  {% assign default_paths = site.pages | map: "path" %}
+  {% assign page_paths = site.header_pages | default: default_paths %}
   <div class="menu-container">
     <div class="menu-wrap">
       <nav class="menu">
         <div class="icon-list">
-          <a href="aktualnosci"><i class="fa fa-fw fa-star-o"></i><span>Aktualności</span></a>
+          {% for path in page_paths %}
+            {% assign my_page = site.pages | where: "path", path | first %}
+            {% if my_page.title %}
+              <a class="" href="{{ my_page.url | relative_url }}"><span>{{ my_page.title | escape }}</span></a>
+            {% endif %}
+          {% endfor %}
+
+          <!-- <a href="aktualnosci"><i class="fa fa-fw fa-star-o"></i><span>Aktualności</span></a>
           <a href="oferta"><i class="fa fa-fw fa-bell-o"></i><span>Oferta</span></a>
           <a href="cennik"><i class="fa fa-fw fa-envelope-o"></i><span>Cennik</span></a>
           <a href="galeria"><i class="fa fa-fw fa-comment-o"></i><span>Galeria i Filmy</span></a>
-          <a href="kontakt"><i class="fa fa-fw fa-comment-o"></i><span>Kontakt</span></a>
+          <a href="kontakt"><i class="fa fa-fw fa-comment-o"></i><span>Kontakt</span></a> -->
         </div>
         <ul class="list-inline site-footer">
             <li class="list-inline-item">

@@ -1,5 +1,5 @@
 .nav {
-  @media (max-width: $tablet) {
+  @media (max-width: $laptop) {
     display: block;
     text-align: center;
   }
@@ -36,7 +36,7 @@ header .nav-link {
 }
 
 .site-footer {
-  @media (max-width: $tablet) {
+  @media (max-width: $laptop) {
     display: inline-grid;
   }
 }
@@ -53,7 +53,7 @@ aside {
   margin-left: auto;
   margin-right: auto;
   max-width: 15vw;
-  @media (max-width: $tablet) {
+  @media (max-width: $laptop) {
     padding: $base-spacing;
   }
 }
@@ -117,5 +117,5 @@ aside {
 }
 
 .carousel-inner {
-  height: 75vh;
+  // height: 75vh;
 }

@@ -1,5 +1,5 @@
 ---
-permalink: aktualnosci
+permalink: /aktualnosci/
 title: Aktualności
 layout: default
 ---
@@ -10,9 +10,9 @@ layout: default
       <h5 class="pt-2 pb-2">Zobacz nasze aktualnosci</h5>
     </div>
   </div>
-  <div class="row ml-2 mr-2">
+  <div class="row mx-2">
     {% for post in site.posts %}
-    <div class="col-md-4">
+    <div class="col-sm-6 col-md-4">
       <div class="card mt-5 mb-5">
         <div class="card-block">
           <img class="card-img-top" src="{{ post.title-img }}" alt="">

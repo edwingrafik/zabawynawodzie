@@ -57,7 +57,11 @@ authors: www.edwingrafik.com
 authors-external-url: https://edwingrafik.com/
 
 header_pages:
- - o-nas.html
+ - aktualnosci.html
+ - oferta.html
+ - cennik.html
+ - galeria.html
+ - kontakt.html
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
