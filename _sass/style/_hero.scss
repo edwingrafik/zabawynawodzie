@@ -40,12 +40,14 @@
   padding: $base-spacing;
   color: white;
   width: fit-content;
+  width: -moz-fit-content;
 }
 
 .hero-title h6 {
-  padding: $base-spacing;
+  padding: $base-spacing/2;
   color: white;
   width: fit-content;
+  width: -moz-fit-content;
 }
 
 #wakeboard {
@@ -58,6 +60,9 @@
     &:hover {
       filter: url('#red-blue');
     }
+    @media (max-width: $tablet) {
+      margin: $base-spacing;
+    }
   }
   .hero-title {
     transform: translate(0%, 160%);
@@ -65,27 +70,12 @@
     h6 {
       background-color: $red;
     }
-  }
-}
-#sailing-archive {
-  height: 53vh;
-  .hero-img {
-    margin-top: $base-spacing*2;
-    margin-right: $base-spacing*2;
-    margin-bottom: $base-spacing;
-    margin-left: $base-spacing;
-    &:hover {
-      filter: url('#red-blue');
-    }
-  }
-  .hero-title {
-    transform: translate(0%, 160%);
-    left: $base-spacing;
-    h6 {
-      background-color: $red;
+    @media (max-width: $tablet) {
+      left: $base-spacing;
     }
   }
 }
+
 #water-ski {
   height: 25vh;
   .hero-img {
@@ -95,6 +85,9 @@
     margin-left: $base-spacing;
     &:hover {
       filter: url('#yellow-orange');
+    }
+    @media (max-width: $tablet) {
+      margin: $base-spacing;
     }
   }
   .hero-title {
@@ -115,12 +108,18 @@
     &:hover {
       filter: url('#yellow-orange');
     }
+    @media (max-width: $tablet) {
+      margin: $base-spacing;
+    }
   }
   .hero-title {
-    transform: translate(0%, 60%);
+    transform: translate(0%, 180%);
     left: $base-spacing*2;
     h6 {
       background-color: $orange;
+    }
+    @media (max-width: $tablet) {
+      left: $base-spacing;
     }
   }
 }
@@ -133,6 +132,9 @@
     margin-left: $base-spacing;
     &:hover {
       filter: url('#green-blue');
+    }
+    @media (max-width: $tablet) {
+      margin: $base-spacing;
     }
   }
   .hero-title {
@@ -172,12 +174,18 @@
     &:hover {
       filter: url('#yellow-pink');
     }
+    @media (max-width: $tablet) {
+      margin: $base-spacing;
+    }
   }
   .hero-title {
     transform: translate(0%, 100%);
     left: $base-spacing*2;
     h6 {
       background-color: $yellow;
+    }
+    @media (max-width: $tablet) {
+      left: $base-spacing;
     }
   }
 }
@@ -191,9 +199,12 @@
     &:hover {
       filter: url('#blue-aqua');
     }
+    @media (max-width: $tablet) {
+      margin: $base-spacing;
+    }
   }
   .hero-title {
-    transform: translate(0%, 100%);
+    transform: translate(0%, 50%);
     left: $base-spacing;
     h6 {
       background-color: aqua;
