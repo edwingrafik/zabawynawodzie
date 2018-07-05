@@ -39,6 +39,7 @@
   background-color: $dark;
   padding: $base-spacing;
   color: white;
+  width: fit-content;
 }
 
 .hero-title h6 {
@@ -105,7 +106,7 @@
   }
 }
 #sail-courses {
-  height: 25vh;
+  height: 53vh;
   .hero-img {
     margin-top: $base-spacing*2;
     margin-right: $base-spacing;

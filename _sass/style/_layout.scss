@@ -63,6 +63,9 @@ aside {
 .margin-left {
   margin-left: $base-spacing*2;
 }
+.margin-right {
+  margin-right: $base-spacing*2;
+}
 
 .card {
   border-radius: 0;
@@ -100,4 +103,16 @@ aside {
   &:hover {
     color: darken($orange, 10);
   }
+}
+
+
+.text-link {
+  color: $brand-color;
+}
+.text-link:hover {
+  color: darken($brand-color, 10);
+}
+
+.carousel-inner {
+  height: 75vh;
 }

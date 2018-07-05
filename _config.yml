@@ -30,8 +30,8 @@ logo:
   - file: logo-zabawy-na-wodzie.svg
     alt: logo-zabawy-na-wodzie
 
-  - file: logo-wyblinka.svg
-    alt: logo-wyblinka
+  #- file: logo-wyblinka.svg
+    #alt: logo-wyblinka
 
 social:
   - social-media: facebook
@@ -71,8 +71,35 @@ header_pages:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-images:
-  - file:
+motorboat:
+  - file: motorowka-P5311370
+    active: active
+    position: 0
+    alt:
+
+  - file: motorowka-P5311379
+    active:
+    position: 1
+    alt:
+
+  - file: motorowka-P5311393
+    active:
+    position: 2
+    alt:
+
+  - file: motorowka-P5311416
+    active:
+    position: 3
+    alt:
+
+  - file: motorowka-P6031609
+    active:
+    position: 4
+    alt:
+
+  - file: motorowka-P6031613
+    active:
+    position: 5
     alt:
 
 
