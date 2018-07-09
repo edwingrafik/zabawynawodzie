@@ -16,12 +16,9 @@
 title: Zabawa na Wodzie
 email: odolski.tomasz@poczta.fm
 phone: +48 784 199 711
-address_1: ul. Dąbkowskiego 51 lokal 3b
-address_2: 42-202 Nowy Sącz
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+address_1: Przystań YC PTTK Beskid w Znamirowicach
+address_2: Jezioro Rożnowskie - Nowy Sącz
+description: Zapraszamy do aktywnego spędzania czasu nad Jeziorem Rożnowskim. Wakeboard, narty wodne, koło, jazda motorówką i rejsy jachtem – po prostu zabawa na wodzie!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "vibrant-rosalind-6163f5.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
 brand-color: ff8a48
@@ -105,35 +102,3 @@ motorboat:
     active:
     position: 5
     alt:
-
-
-hero:
-  - file: steven-welch-124749-unsplash.jpg
-    title: Wakeboard
-    desc: Wakeboard Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
-    filter: yellow--red
-    id: wakeboard
-
-  - file: caleb-vandenheuvel-407861-unsplash.jpg
-    title: Narty wodne
-    desc: Narty wodne Lorem ipsum dolor
-    filter:
-    id: water-ski
-
-  - file: 33944106_2116176085327162_1685665829208719360_o.jpg
-    title: Koło
-    desc: Koło Lorem ipsum dolor
-    filter:
-    id: tubbing
-
-  - file: IMG_20150801_121529.jpg
-    title: Banan
-    desc: Banan Lorem ipsum dolor
-    filter:
-    id: banana
-
-  - file: kolo11.jpg
-    title: Przejażdżki motorowką
-    desc: Przejażdżki motorowką Lorem ipsum dolor
-    filter:
-    id: motorboat
