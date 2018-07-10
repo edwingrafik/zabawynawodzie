@@ -5,42 +5,44 @@ layout: default
 ---
 <div class="row no-gutters contact">
   <div class="col-md-12">
-    <div class="blurb mt-5 margin-left">
+    <div class="blurb mt-5 margin-left margin-right">
       <h1 class="mb-3 text-uppercase font-weight-bold">{{ page.title }}</h1>
       <h5 class="pt-2 pb-2">Zobacz nasze aktualnosci</h5>
     </div>
   </div>
-  <div class="row mx-2">
+  <div class="row mx-3">
     {% for post in site.posts %}
-    <div class="col-sm-6 col-md-4">
-      <div class="card mt-5 mb-5">
-        <div class="card-block">
-          <img class="card-img-top" src="{{ post.title-img }}" alt="">
-          <div class="">
-            <h2 class="card-title text-truncate">{{ post.title }}</h2>
-            <p class="card-text text-truncate">
-              {% assign m = post.date | date: "%-m" %}
-              {{ post.date | date: "%-d" }}
-                {% case m %}
-                  {% when '1' %}Stycznia
-                  {% when '2' %}Lutego
-                  {% when '3' %}Marca
-                  {% when '4' %}Kwietnia
-                  {% when '5' %}Maja
-                  {% when '6' %}Czerwca
-                  {% when '7' %}Lipca
-                  {% when '8' %}Sierpnia
-                  {% when '9' %}Września
-                  {% when '10' %}Paździenika
-                  {% when '11' %}Listopada
-                  {% when '12' %}Grudnia
-                {% endcase %}
-              {{ post.date | date: "%Y" }}
-            </p>
-            <a href="{{ post.url }}" class="btn card-button d-block mt-3">Czytaj!</a>
+    <div class="col-xs-6 col-md-4">
+      <a href="{{ post.url }}">
+        <div class="card mt-5 mb-5">
+          <div class="card-block">
+            <img class="card-img-top" src="{{ post.title-img }}" alt="">
+            <div class="">
+              <h2 class="card-title text-truncate">{{ post.title }}</h2>
+              <p class="card-text text-truncate">
+                {% assign m = post.date | date: "%-m" %}
+                {{ post.date | date: "%-d" }}
+                  {% case m %}
+                    {% when '1' %}Stycznia
+                    {% when '2' %}Lutego
+                    {% when '3' %}Marca
+                    {% when '4' %}Kwietnia
+                    {% when '5' %}Maja
+                    {% when '6' %}Czerwca
+                    {% when '7' %}Lipca
+                    {% when '8' %}Sierpnia
+                    {% when '9' %}Września
+                    {% when '10' %}Paździenika
+                    {% when '11' %}Listopada
+                    {% when '12' %}Grudnia
+                  {% endcase %}
+                {{ post.date | date: "%Y" }}
+              </p>
+              <a href="{{ post.url }}" class="btn card-button d-block mt-3">Czytaj!</a>
+            </div>
           </div>
         </div>
-      </div>
+      </a>
     </div>
     {% endfor %}
   </div>
