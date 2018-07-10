@@ -11,32 +11,11 @@ permalink: /galeria/
   </div>
 
   <div class="margin-left margin-right">
-    <h2 class="mb-3">Przejażdżki motorówką</h2>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-      {% for item in site.motorboat %}
-        <li data-target="#carouselExampleIndicators" data-slide-to="{{ item.position }}" class="{{ item.active }}"></li>
-      {% endfor %}
-    </ol>
-      <div class="carousel-inner">
-      {% for item in site.motorboat %}
-      <div class="carousel-item {{ item.active }}">
-        <img class="d-block w-100" src="/img/{{ item.file }}.jpg" alt="{{ item.alt }}">
-      </div>
-      {% endfor %}
-    </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-    <div class="embed-responsive embed-responsive-16by9 my-3">
-      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/E-g23LJBwQU" allowfullscreen></iframe>
-    </div>
+    {% include wakeboard.html %}
+    {% include waterski.html %}
+    {% include sup.html %}
+    {% include tubbing.html %}    
+    {% include motorboat.html %}
   </div>
 
 </div>

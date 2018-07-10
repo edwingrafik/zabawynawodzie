@@ -1,13 +1,8 @@
-.hero-content {
-}
-
 .hero-item {
   position: relative;
 }
 
 .blurb {
-  // margin-left: $base-spacing*2;
-  // margin-right: $base-spacing*2;
   margin-bottom: $base-spacing*4;
   color: $dark;
    h5 {
@@ -50,7 +45,7 @@
   width: -moz-fit-content;
 }
 
-#wakeboard {
+#hero-01 {
   height: 53vh;
   .hero-img {
     margin-top: $base-spacing*2;
@@ -75,8 +70,7 @@
     }
   }
 }
-
-#water-ski {
+#hero-02 {
   height: 25vh;
   .hero-img {
     margin-top: $base-spacing*2;
@@ -98,32 +92,7 @@
     }
   }
 }
-#sail-courses {
-  height: 53vh;
-  .hero-img {
-    margin-top: $base-spacing*2;
-    margin-right: $base-spacing;
-    margin-bottom: $base-spacing*2;
-    margin-left: $base-spacing*2;
-    &:hover {
-      filter: url('#yellow-orange');
-    }
-    @media (max-width: $tablet) {
-      margin: $base-spacing;
-    }
-  }
-  .hero-title {
-    transform: translate(0%, 180%);
-    left: $base-spacing*2;
-    h6 {
-      background-color: $orange;
-    }
-    @media (max-width: $tablet) {
-      left: $base-spacing;
-    }
-  }
-}
-#tubbing {
+#hero-03 {
   height: 25vh;
   .hero-img {
     margin-top: $base-spacing;
@@ -145,26 +114,7 @@
     }
   }
 }
-#sailing {
-  height: 25vh;
-  .hero-img {
-    margin-top: $base-spacing;
-    margin-right: $base-spacing;
-    margin-bottom: $base-spacing;
-    margin-left: $base-spacing*2;
-    &:hover {
-      filter: url('#green-blue');
-    }
-  }
-  .hero-title {
-    transform: translate(0%, 40%);
-    left: $base-spacing*2;
-    h6 {
-      background-color: #4db6ac;
-    }
-  }
-}
-#banana {
+#hero-04 {
   height: 35vh;
   .hero-img {
     margin-top: $base-spacing;
@@ -189,7 +139,7 @@
     }
   }
 }
-#motorboat {
+#hero-05 {
   height: 35vh;
   .hero-img {
     margin-top: $base-spacing;
@@ -208,6 +158,31 @@
     left: $base-spacing;
     h6 {
       background-color: aqua;
+    }
+  }
+}
+#hero-06 {
+  height: 53vh;
+  .hero-img {
+    margin-top: $base-spacing*2;
+    margin-right: $base-spacing;
+    margin-bottom: $base-spacing*2;
+    margin-left: $base-spacing*2;
+    &:hover {
+      filter: url('#yellow-orange');
+    }
+    @media (max-width: $tablet) {
+      margin: $base-spacing;
+    }
+  }
+  .hero-title {
+    transform: translate(0%, 180%);
+    left: $base-spacing*2;
+    h6 {
+      background-color: $orange;
+    }
+    @media (max-width: $tablet) {
+      left: $base-spacing;
     }
   }
 }
