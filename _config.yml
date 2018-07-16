@@ -73,32 +73,26 @@ header_pages:
 #   - vendor/ruby/
 
 motorboat:
-  - file: motorowka-P5311370
-    active: active
-    position: 0
+  - file: motorowka-P5311370.jpg
     alt:
+    caption: Moto 1
 
-  - file: motorowka-P5311379
-    active:
-    position: 1
+  - file: motorowka-P5311379.jpg
     alt:
+    caption: Moto 2
 
-  - file: motorowka-P5311393
-    active:
-    position: 2
+  - file: motorowka-P5311393.jpg
     alt:
+    caption: Moto 3
 
-  - file: motorowka-P5311416
-    active:
-    position: 3
+  - file: motorowka-P5311416.jpg
     alt:
+    caption: Moto 4
 
-  - file: motorowka-P6031609
-    active:
-    position: 4
+  - file: motorowka-P6031609.jpg
     alt:
+    caption: Moto 5
 
-  - file: motorowka-P6031613
-    active:
-    position: 5
+  - file: motorowka-P6031613.jpg
     alt:
+    caption: Moto 6

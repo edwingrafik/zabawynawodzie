@@ -12,13 +12,23 @@
       <div class="embed-responsive embed-responsive-16by9 my-3">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/E-g23LJBwQU" allowfullscreen></iframe>
       </div>
-      <!-- {% for item in site.motorboat %}
-      <div class="col">
-        <a href="/img/{{ item.file }}.jpg" data-lightbox="example-set" data-title="{{ site.lightbox-tip }}">
-          <img src="/img/{{ item.file }}.jpg" alt="">
-        </a>
+
+      {% include lightbox-controls.html %}
+        <div class="lightbox-gallery">
+          <div class="row no-gutters">
+          {% for item in site.motorboat %}
+          <figure class="img-container col-md-4 col-xs-12" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="/img/{{ item.file }}" data-size="1080x720" itemprop="contentUrl">
+              <img src="/img/{{ item.file }}" alt="{{ item.alt }}" class="image" itemprop="thumbnail">
+              <div class="img-overlay">
+                <span class="img-caption">{{ item.caption }}</span>
+              </div>
+            </a>
+            <figcaption itemprop="caption description">{{ item.caption }}</figcaption>
+          </figure>
+          {% endfor %}
+          </div>
       </div>
-      {% endfor %} -->
     </div>
   </div>
 </div>
