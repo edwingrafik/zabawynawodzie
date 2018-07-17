@@ -11,4 +11,49 @@ title-img:
     <h5 class="pt-2 pb-2">{{ page.subtitle }}</h5>
   </div>
   <div>{{ content }}</div>
+
+  {% assign size = site.posts | size %}
+  {% if size > 1 %}
+  <div class="blurb mt-5">
+    <h5 class="pt-2 pb-2">Zobacz także:</h5>
+  </div>
+  <div class="row no-gutters mb-5">
+      <div class="card-deck">
+        {% if page.previous.url %}
+        <div class="mb-3">
+          <div class="card shadow">
+              <img class="card-img-top cover-img" src="{{ page.previous.title-img }}" alt="Card image cap">
+              <div class="card-body">
+                  <h3 class="">{{ page.previous.title }}</h3>
+              </div>
+              <a href="{{ page.previous.url }}" class="card-footer">
+                <div class="d-flex justify-content-between">
+                  <span class="">Poprzedni post</span>
+                  <span class="text-uppercase">Czytaj</span>
+                </div>
+              </a>
+          </div>
+        </div>
+        {% endif %}
+
+        {% if page.next.url %}
+        <div class="mb-3">
+          <div class="card shadow">
+              <img class="card-img-top cover-img" src="{{ page.next.title-img }}" alt="Card image cap">
+              <div class="card-body">
+                  <h3 class="">{{ page.next.title }}</h3>
+              </div>
+              <a href="{{ page.next.url }}" class="card-footer">
+                <div class="d-flex justify-content-between">
+                  <span class="">Następny post</span>
+                  <span class="text-uppercase">Czytaj</span>
+                </div>
+              </a>
+          </div>
+        </div>
+        {% endif %}
+    </div>
+  </div>
+  {% endif %}
+
 </article>
