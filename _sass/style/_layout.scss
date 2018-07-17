@@ -192,3 +192,24 @@ aside {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
+
+
+.cover-img {
+  max-height: $base-spacing*30;
+  min-height: $base-spacing*30;
+  width: 100%;
+  object-fit: cover;
+  transition: all $animation ease;
+  &:hover {
+    opacity: .75;
+  }
+}
+
+.card-footer {
+  background-color: $brand-color !important;
+  color: white !important;
+  transition: all $animation ease;
+  &:hover {
+    background-color: $dark !important;
+  }
+}

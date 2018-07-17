@@ -124,7 +124,7 @@ li {
 
 a {
   color: $text-color;
-  text-decoration: none;
+  text-decoration: none !important;
   white-space: nowrap;
 
   &:visited {

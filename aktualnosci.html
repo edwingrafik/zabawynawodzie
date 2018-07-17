@@ -11,89 +11,18 @@ layout: default
     </div>
   </div>
   <div class="row no-gutters mx-3">
-    <!-- {% for post in site.posts %}
-    <div class="col-xs-6 col-md-4">
-      <a href="{{ post.url }}">
-        <div class="card mt-5 mb-5">
-          <div class="card-block">
-            <img class="card-img-top" src="{{ post.title-img }}" alt="">
-            <div class="">
-              <h2 class="card-title text-truncate">{{ post.title }}</h2>
-              <p class="card-text text-truncate">
-                {% assign m = post.date | date: "%-m" %}
-                {{ post.date | date: "%-d" }}
-                  {% case m %}
-                    {% when '1' %}Stycznia
-                    {% when '2' %}Lutego
-                    {% when '3' %}Marca
-                    {% when '4' %}Kwietnia
-                    {% when '5' %}Maja
-                    {% when '6' %}Czerwca
-                    {% when '7' %}Lipca
-                    {% when '8' %}Sierpnia
-                    {% when '9' %}Września
-                    {% when '10' %}Paździenika
-                    {% when '11' %}Listopada
-                    {% when '12' %}Grudnia
-                  {% endcase %}
-                {{ post.date | date: "%Y" }}
-              </p>
-              <a href="{{ post.url }}" class="btn card-button d-block mt-3">Czytaj!</a>
-            </div>
-          </div>
-        </div>
-      </a>
-    </div>
-    {% endfor %} -->
-
-      <!-- <div class="row no-gutters">
-      {% assign post = site.posts %}
-      {% for post in site.posts %}
-      <div class="img-container col-md-4 col-xs-12">
-        <div class="mx-3 my-3">
-          <a href="{{ post.url | relative_url }}">
-            <img src="{{ post.title-img }}" alt="" class="image">
-            <div class="">
-              <p class="card-text text-truncate">
-                {% assign m = post.date | date: "%-m" %}
-                {{ post.date | date: "%-d" }}
-                  {% case m %}
-                    {% when '1' %}Stycznia
-                    {% when '2' %}Lutego
-                    {% when '3' %}Marca
-                    {% when '4' %}Kwietnia
-                    {% when '5' %}Maja
-                    {% when '6' %}Czerwca
-                    {% when '7' %}Lipca
-                    {% when '8' %}Sierpnia
-                    {% when '9' %}Września
-                    {% when '10' %}Paździenika
-                    {% when '11' %}Listopada
-                    {% when '12' %}Grudnia
-                  {% endcase %}
-                {{ post.date | date: "%Y" }}
-              </p>
-              <span class="">{{ post.title }}</span>
-            </div>
-          </a>
-        </div>
-      </div>
-      {% endfor %}
-      </div> -->
-
-
-      {% assign post = site.posts %}
-      {% for post in site.posts %}
-      <div class="container col-3 mb-3">
-          <div class="post-module">
-            <div class="thumbnail">
-              <img src="{{ post.title-img }}" />
-            </div>
-            <div class="post-content">
-              <div class="category">Photos</div>
-              <h1 class="title">{{ post.title }}</h1>
-              <div class="post-meta">
-                <span class="timestamp">
+      <div class="card-deck">
+        {% assign post = site.posts %}
+        {% for post in site.posts %}
+        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
+          <div class="card shadow">
+              <img class="card-img-top cover-img" src="{{ post.title-img }}" alt="Card image cap">
+              <div class="card-body">
+                  <h3 class="">{{ post.title }}</h3>
+              </div>
+              <a href="{{ post.url }}" class="card-footer">
+                <div class="d-flex justify-content-between">
+                  <span class="">
                     {% assign m = post.date | date: "%-m" %}
                     {{ post.date | date: "%-d" }}
                       {% case m %}
@@ -111,49 +40,13 @@ layout: default
                         {% when '12' %}Grudnia
                       {% endcase %}
                     {{ post.date | date: "%Y" }}
-                </span>
-                <span class="comments">
-                  <a href="{{ post.url | relative_url }}">Read</a>
-                </span>
-              </div>
-            </div>
+                  </span>
+                  <span class="text-uppercase">Czytaj</span>
+                </div>
+              </a>
           </div>
-      </div>
-      {% endfor %}
-
-
-
-  </div>
-
-
-
-</div>
-
-
-
-<!-- <div class="container mb-5">
-    <div class="post-module">
-      <div class="thumbnail">
-        <div class="date">
-          <div class="day">27</div>
-          <div class="month">Mar</div>
         </div>
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg" />
-      </div>
-      <div class="post-content">
-        <div class="category">Photos</div>
-        <h1 class="title">City Lights in New York</h1>
-        <h2 class="sub_title">The city that never sleeps.</h2>
-        <div class="post-meta">
-          <span class="timestamp">
-            <i class="fa fa-clock-">o</i>
-            6 mins ago
-          </span>
-          <span class="comments">
-            <i class="fa fa-comments"></i>
-            <a href="#"> 39 comments</a>
-          </span>
-        </div>
-      </div>
+        {% endfor %}
     </div>
-</div> -->
+  </div>
+</div>
