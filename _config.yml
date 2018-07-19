@@ -32,21 +32,18 @@ logo:
 
 social:
   - social-media: facebook
-    social-url: https://www.facebook.com/wyblinka
+    social-url: #
     icon: fab fa-facebook-square
 
-  # - social-media: instagram
-  #   social-url:
-  #   icon: fab fa-instagram
+  - social-media: instagram
+    social-url: #
+    icon: fab fa-instagram
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
-sass:
-    style: compressed
 
 nav:
   - title: O nas
