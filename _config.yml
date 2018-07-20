@@ -84,6 +84,11 @@ header_pages:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+collections:
+  subpages:
+    output: true
+    permalink: /:path/
+
 motorboat:
   - file: motorowka-P5311370.jpg
     alt:
