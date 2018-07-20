@@ -1,0 +1,15 @@
+---
+layout: default
+title: Podstrona 2
+order: 40
+entry: wpis 3
+permalink: /podstrona2/
+---
+<div class="margin-left mt-5">
+  <h2>{{ page.title }}</h2>
+  <ul class="list-group col my-5 ml-0">
+    {% for item in page.entry %}
+      <li class="list-group-item">{{ page.entry }}</li>
+    {% endfor %}
+  </ul>
+</div>

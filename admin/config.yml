@@ -48,7 +48,7 @@ collections:
       - label: "Wpis"
         name: "entry"
         widget: "list"
-        field:
+        fields:
           - label: "Treść wpisu"
             name: "entry-item"
             widget: "string"
