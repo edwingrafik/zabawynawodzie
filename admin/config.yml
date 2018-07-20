@@ -34,7 +34,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Tytuł", name: "title", widget: "string"}
       - {label: "Wpis strony", name: "page-item", widget: "list", fields:
-        - {label: "Wpis", name: quote, widget: string, default: "dodaj element"}
+        - {label: "Wpis", name: "quote", widget: "string", default: "dodaj element"}
         }
       - {label: "Kolejność", name: "order", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
