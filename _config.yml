@@ -45,6 +45,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
+sass:
+  style: compressed
+
 nav:
   - title: O nas
     url: o-nas

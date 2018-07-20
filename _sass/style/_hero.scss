@@ -110,7 +110,7 @@
     transform: translate(0%, 40%);
     left: $base-spacing;
     h6 {
-      background-color: #4db6ac;
+      background-color: $green;
     }
   }
 }
@@ -132,7 +132,7 @@
     transform: translate(0%, 100%);
     left: $base-spacing*2;
     h6 {
-      background-color: $yellow;
+      background-color: $navy;
     }
     @media (max-width: $tablet) {
       left: $base-spacing;
@@ -157,7 +157,7 @@
     transform: translate(0%, 50%);
     left: $base-spacing;
     h6 {
-      background-color: aqua;
+      background-color: $purple;
     }
   }
 }
@@ -183,6 +183,33 @@
     }
     @media (max-width: $tablet) {
       left: $base-spacing;
+    }
+  }
+}
+
+.hero-teaser {
+  height: 35vh;
+  .hero-img {
+    // margin-top: $base-spacing;
+    // margin-right: $base-spacing;
+    // margin-bottom: $base-spacing;
+    // margin-left: $base-spacing*2;
+    &:hover {
+      filter: url('#yellow-pink');
+    }
+    // @media (max-width: $tablet) {
+    //   margin: $base-spacing;
+    // }
+  }
+  .hero-title {
+    transform: translate(0%, 80%);
+    // left: $base-spacing*2;
+    left: 0;
+    h6 {
+      background-color: $red;
+    }
+    @media (max-width: $tablet) {
+      // left: $base-spacing;
     }
   }
 }
