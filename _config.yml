@@ -92,6 +92,12 @@ collections:
   pricing:
     output: true
 
+  offer:
+    output: true
+    
+  contact:
+    output: true
+
 motorboat:
   - file: motorowka-P5311370.jpg
     alt:

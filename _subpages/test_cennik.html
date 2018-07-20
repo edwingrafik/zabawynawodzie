@@ -11,7 +11,7 @@ permalink: /test_cennik/
     {% assign pricing = site.pricing | sort: 'order' %}
       {% for entry in pricing %}
       <li class="list-group-item">
-        <b>{{ entry.title }}</b>{{ entry.desc }}
+        <b>{{ entry.title }}: </b>{{ entry.desc }}
       </li>
       {% endfor %}
   </ul>

@@ -45,6 +45,10 @@ collections:
         widget: "number"
         valueType: "int"
 
+      - label: "Link"
+        name: "link"
+        widget: "string"
+
   - name: "pricing"
     label: "Cennik"
     folder: "_pricing"
@@ -54,7 +58,7 @@ collections:
       - label: "Nazwa"
         name: "title"
         widget: "string"
-        
+
       - label: "Wpis"
         name: "entry"
         widget: "text"
@@ -67,3 +71,60 @@ collections:
         name: "order"
         widget: "number"
         valueType: "int"
+
+  - name: "offer"
+    label: "Oferta"
+    folder: "_offer"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: "Nazwa"
+        name: "title"
+        widget: "string"
+
+      - label: "Podtytuł"
+        name: "desc"
+        widget: "text"
+
+      - label: "Wpis"
+        name: "entry"
+        widget: "text"
+
+      - label: "Kolejność"
+        name: "order"
+        widget: "number"
+        valueType: "int"
+
+  - name: "contact"
+    label: "Dane strony"
+    folder: "_contact"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: "Nazwa strony"
+        name: "title"
+        widget: "text"
+
+      - label: "E-mail"
+        name: "email"
+        widget: "text"
+
+      - label: "Telefon"
+        name: "phone"
+        widget: "text"
+
+      - label: "Adres 1"
+        name: "address_1"
+        widget: "text"
+
+      - label: "Adres 2"
+        name: "address_2"
+        widget: "text"
+
+      - label: "Opis META"
+        name: "description"
+        widget: "text"
+
+      - label: "Brand color"
+        name: "brand-color"
+        widget: "text"
