@@ -52,7 +52,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - label: "Wpis"
-        name: "entry"
+        name: "title"
         widget: "text"
 
       - label: "Opis"
