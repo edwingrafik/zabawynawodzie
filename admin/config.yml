@@ -33,8 +33,6 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Tytuł", name: "title", widget: "string"}
-      - {label: "Wpis strony", name: "page-item", widget: "list", fields:
-        - {label: "Wpis", name: "quote", widget: "string", default: "dodaj element"}
-        }
+      # - {label: "Wpis strony", name: "page-item", widget: "list"}
       - {label: "Kolejność", name: "order", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
