@@ -51,10 +51,19 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - label: "Wpis"
+      - label: "Nazwa"
         name: "title"
+        widget: "string"
+        
+      - label: "Wpis"
+        name: "entry"
         widget: "text"
 
       - label: "Opis"
         name: "desc"
         widget: "text"
+
+      - label: "Kolejność"
+        name: "order"
+        widget: "number"
+        valueType: "int"

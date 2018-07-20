@@ -46,15 +46,21 @@ collections:
         valueType: "int"
 
   - name: "pricing"
+    label: "Title", name: "title", widget: "string"
     label: "Cennik"
     folder: "_pricing"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - label: "Wpis"
-        name: "title"
+        name: "entry"
         widget: "text"
 
       - label: "Opis"
         name: "desc"
         widget: "text"
+
+      - label: "Kolejność"
+        name: "order"
+        widget: "number"
+        valueType: "int"

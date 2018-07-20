@@ -89,6 +89,9 @@ collections:
     output: true
     permalink: /:path/
 
+  pricing:
+    output: true
+
 motorboat:
   - file: motorowka-P5311370.jpg
     alt:
