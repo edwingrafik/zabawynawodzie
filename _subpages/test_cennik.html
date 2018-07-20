@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Test Cennik
+title: Cennik
 page-item:
 order: 10
-permalink: /test_cennik/
+permalink: /cennik/
 ---
 <div class="margin-left mt-5">
   <h2>{{ page.title }}</h2>
@@ -11,8 +11,9 @@ permalink: /test_cennik/
     {% assign pricing = site.pricing | sort: 'order' %}
       {% for entry in pricing %}
       <li class="list-group-item">
-        <b>{{ entry.title }}: </b>{{ entry.desc }}
+        <b>{{ entry.entry }}: </b>{{ entry.desc }}
       </li>
       {% endfor %}
+      <li class="list-group-item">Przy grupach zorganizowanych ceny ustalamy indywidualnie.</li>
   </ul>
 </div>

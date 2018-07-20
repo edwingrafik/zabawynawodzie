@@ -46,7 +46,7 @@ collections:
         valueType: "int"
 
       - label: "Link"
-        name: "link"
+        name: "permalink"
         widget: "string"
 
   - name: "pricing"
@@ -81,10 +81,6 @@ collections:
       - label: "Nazwa"
         name: "title"
         widget: "string"
-
-      - label: "Podtytuł"
-        name: "desc"
-        widget: "text"
 
       - label: "Wpis"
         name: "entry"
