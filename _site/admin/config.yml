@@ -45,10 +45,10 @@ collections:
         widget: "number"
         valueType: "int"
 
-      - label: "Wpis"
-        name: "entry"
-        widget: "list"
+      - label: "Wpisy"
+        name: "entries"
+        widget: "object"
         fields:
-          - label: "Treść wpisu"
-            name: "entry-item"
+          - label: "Wpis"
+            name: "entry"
             widget: "text"
