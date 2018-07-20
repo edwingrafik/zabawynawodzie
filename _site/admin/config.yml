@@ -51,4 +51,4 @@ collections:
         fields:
           - label: "Treść wpisu"
             name: "entry-item"
-            widget: "string"
+            widget: "text"
