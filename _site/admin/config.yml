@@ -169,8 +169,44 @@ collections:
         widget: "text"
         required: false
 
-      - label: "Zdjęcie"
+      - label: "Miniaturka"
         name: "thumbnail"
+        widget: "image"
+        default: "/images/uploads/default.jpg"
+        required: false
+
+      - label: "Zdjęcie"
+        name: "image"
+        widget: "image"
+        default: "/images/uploads/default.jpg"
+        required: false
+
+      - label: "Zdjęcie"
+        name: "image"
+        widget: "image"
+        default: "/images/uploads/default.jpg"
+        required: false
+
+      - label: "Zdjęcie"
+        name: "image"
+        widget: "image"
+        default: "/images/uploads/default.jpg"
+        required: false
+
+      - label: "Zdjęcie"
+        name: "image"
+        widget: "image"
+        default: "/images/uploads/default.jpg"
+        required: false
+
+      - label: "Zdjęcie"
+        name: "image"
+        widget: "image"
+        default: "/images/uploads/default.jpg"
+        required: false
+        
+      - label: "Zdjęcie"
+        name: "image"
         widget: "image"
         default: "/images/uploads/default.jpg"
         required: false

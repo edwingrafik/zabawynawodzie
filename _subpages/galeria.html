@@ -2,9 +2,46 @@
 layout: default
 title: Galeria
 order: 30
-permalink: galeria
+permalink: /galeria/
 ---
-{% assign discipline = site.disciplines %}
-{% for discipline in disciplines %}
-<h3>{{ discipline.name }}</h3>
-{% endfor %}
+<div class="row no-gutters">
+  <div class="col-md-12">
+    <div class="blurb mt-5 margin-left">
+      <h1 class="mb-3 text-uppercase font-weight-bold">{{ page.title }}</h1>
+    </div>
+  </div>
+  <div class="mx-3 mb-5">
+    <div class="col">
+      {% assign discipline = site.disciplines | sort: 'order' %}
+      {% for item in discipline %}
+      <h2 class="mb-3">{{ item.title }}</h2>
+      <div class="row">
+        <div class="col-md-6 col-xs-12">
+          <p>{{ item.desc }}</p>
+        </div>
+        <div class="col-md-6 col-xs-12">
+          {% if item.video %}
+          <div class="embed-responsive embed-responsive-16by9 my-3">
+            <iframe class="embed-responsive-item" src="{{ item.video }}" frameborder="0" allowfullscreen></iframe>
+          </div>
+          {% endif %}
+          {% include lightbox-controls.html %}
+          <div class="lightbox-gallery">
+            <div class="row no-gutters">
+            <figure class="img-container col-md-4 col-xs-12" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="{{ item.thumbnail }}" data-size="1080x720" itemprop="contentUrl">
+                <img src="{{ item.thumbnail }}" alt="{{ item.alt }}" class="image" itemprop="thumbnail">
+                <div class="img-overlay">
+                  <span class="img-caption">{{ item.title }}</span>
+                </div>
+              </a>
+              <figcaption itemprop="caption description">{{ item.title }}</figcaption>
+            </figure>
+            </div>
+        </div>
+      </div>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
