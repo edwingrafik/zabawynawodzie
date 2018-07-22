@@ -91,7 +91,7 @@ collections:
         widget: "number"
         valueType: "int"
 
-  - name: "contact"
+  - name: "title"
     label: "Dane strony"
     folder: "_contact"
     create: true
@@ -99,6 +99,10 @@ collections:
     fields:
       - label: "Nazwa strony"
         name: "title"
+        widget: "text"
+
+      - label: "Właściciel strony"
+        name: "owner"
         widget: "text"
 
       - label: "E-mail"
@@ -115,6 +119,14 @@ collections:
 
       - label: "Adres 2"
         name: "address_2"
+        widget: "text"
+
+      - label: "Mapa"
+        name: "map"
+        widget: "text"
+
+      - label: "Social"
+        name: "social"
         widget: "text"
 
       - label: "Opis META"
