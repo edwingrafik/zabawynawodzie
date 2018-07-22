@@ -1,0 +1,10 @@
+---
+layout: default
+title: Galeria
+order: 30
+permalink: galeria
+---
+{% assign discipline = site.disciplines %}
+{% for discipline in disciplines %}
+<h3>{{ discipline.name }}</h3>
+{% endfor %}
