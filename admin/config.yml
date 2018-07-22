@@ -175,46 +175,20 @@ collections:
         default: "/images/uploads/default.jpg"
         required: false
 
-      - label: "Zdjęcie"
-        name: "image"
-        widget: "image"
-        default: "/images/uploads/default.jpg"
+      - label: "Zdjęcia"
+        name: "images"
+        widget: "object"
         required: false
+        fields:
+          - label: "Zdjęcie"
+            name: "image"
+            widget: "image"
+            default: "/images/uploads/default.jpg"
 
-      - label: "Zdjęcie"
-        name: "image"
-        widget: "image"
-        default: "/images/uploads/default.jpg"
-        required: false
-
-      - label: "Zdjęcie"
-        name: "image"
-        widget: "image"
-        default: "/images/uploads/default.jpg"
-        required: false
-
-      - label: "Zdjęcie"
-        name: "image"
-        widget: "image"
-        default: "/images/uploads/default.jpg"
-        required: false
-
-      - label: "Zdjęcie"
-        name: "image"
-        widget: "image"
-        default: "/images/uploads/default.jpg"
-        required: false
-        
-      - label: "Zdjęcie"
-        name: "image"
-        widget: "image"
-        default: "/images/uploads/default.jpg"
-        required: false
-
-      - label: "Alt tekst"
-        name: "alt"
-        widget: "text"
-        default: "Zabawa na wodzie"
+          - label: "Alt tekst"
+            name: "alt"
+            widget: "text"
+            default: "Zabawa na wodzie"
 
       - label: "Kolejność"
         name: "order"
