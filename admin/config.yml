@@ -176,8 +176,8 @@ collections:
         required: false
 
       - label: "Zdjęcia"
-        name: "images"
-        widget: "object"
+        name: "gallery"
+        widget: "list"
         required: false
         fields:
           - label: "Zdjęcie"
