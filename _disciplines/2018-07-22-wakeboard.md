@@ -16,7 +16,13 @@ desc: >-
 short-desc: Jazda na desce za motorówką
 video: 'https://www.youtube.com/embed/E-g23LJBwQU'
 thumbnail: /images/uploads/steven-welch-124749-unsplash.jpg
-alt: Zabawa na wodzie
+gallery:
+  - alt: Alt pierwszego zdjęcia
+    image: /images/uploads/motorowka-p5311370.jpg
+  - alt: Alt drugiego zdjęcia
+    image: /images/uploads/motorowka-p5311379.jpg
+  - alt: Alt trzeciego zdjęcia
+    image: /images/uploads/motorowka-p5311393.jpg
 order: 1
 ---
 
