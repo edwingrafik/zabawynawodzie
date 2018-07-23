@@ -12,6 +12,7 @@ desc: >-
   motorowodnego oraz licencję do holowania narciarza wodnego lub innych obiektów
   pływających wydane przez Polski Związek Motorowodny i Narciarstwa Wodnego.
 short-desc: Dwie deski za motorówką
-thumbnail: /images/uploads/default.jpg
+thumbnail: /images/uploads/waterski-405785_1920.jpg
 order: 2
 ---
+
