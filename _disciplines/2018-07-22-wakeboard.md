@@ -1,4 +1,5 @@
 ---
+layout: discipline
 title: Wakeboard
 permalink: wakeboard
 desc: >-
@@ -25,4 +26,3 @@ gallery:
     image: /images/uploads/motorowka-p5311393.jpg
 order: 1
 ---
-

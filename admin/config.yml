@@ -154,6 +154,11 @@ collections:
         widget: "string"
         required: true
 
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "discipline"
+
       - label: "Opis"
         name: "desc"
         widget: "text"
