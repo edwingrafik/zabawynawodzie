@@ -6,7 +6,7 @@
 <div class="row container-flex mx-3">
   {% for item in site.disciplines %}
   <div class="col-md-6 my-3">
-    <a href="{{ item.permalink }}" class="hero-item hero-teaser">
+    <a href="{{ item.permalink | relative_url }}" class="hero-item hero-teaser">
       <div class="hero-title">
         <h2>{{ item.name }}</h2>
         <h6>{{ item.short-desc }}</h6>
