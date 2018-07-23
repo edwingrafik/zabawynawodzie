@@ -11,7 +11,7 @@ desc: >-
   czteroosobową łódź, która pozwala na rekreacyjne przejażdżki po Jeziorze
   Rożnowskim.
 short-desc: Rekreacyjna przejażdżka po jeziorze
-thumbnail: /images/uploads/default.jpg
+thumbnail: /images/uploads/motorowka-p5311379.jpg
 gallery:
   - alt: przejażdżki motorówką
     image: /images/uploads/motorowka-p5311370.jpg
@@ -27,3 +27,4 @@ gallery:
     image: /images/uploads/motorowka-p6031613.jpg
 order: 4
 ---
+
