@@ -64,27 +64,8 @@ collections:
   disciplines:
     output: true
 
-motorboat:
-  - file: motorowka-P5311370.jpg
-    alt:
-    caption: Moto 1
-
-  - file: motorowka-P5311379.jpg
-    alt:
-    caption: Moto 2
-
-  - file: motorowka-P5311393.jpg
-    alt:
-    caption: Moto 3
-
-  - file: motorowka-P5311416.jpg
-    alt:
-    caption: Moto 4
-
-  - file: motorowka-P6031609.jpg
-    alt:
-    caption: Moto 5
-
-  - file: motorowka-P6031613.jpg
-    alt:
-    caption: Moto 6
+defaults:
+  - scope:
+      path: "images/uploads"
+    values:
+      image: true
