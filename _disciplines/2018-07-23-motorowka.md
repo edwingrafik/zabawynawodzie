@@ -1,5 +1,6 @@
 ---
-title: Motorówka
+title: motorowka
+name: Motorówka
 permalink: motorowka
 layout: discipline
 desc: >-
@@ -26,4 +27,3 @@ gallery:
     image: /images/uploads/motorowka-p6031613.jpg
 order: 4
 ---
-

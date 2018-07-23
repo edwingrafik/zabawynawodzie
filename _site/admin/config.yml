@@ -144,8 +144,13 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - label: "Nazwa sportu"
+      - label: "nazwa-wpisu"
         name: "title"
+        widget: "text"
+        required: true
+
+      - label: "Nazwa sportu"
+        name: "name"
         widget: "text"
         required: true
 

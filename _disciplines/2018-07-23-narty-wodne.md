@@ -1,5 +1,6 @@
 ---
-title: Narty wodne
+title: narty-wodne
+name: Narty wodne
 permalink: narty-wodne
 layout: discipline
 desc: >-
@@ -14,4 +15,3 @@ short-desc: Dwie deski za motorówką
 thumbnail: /images/uploads/default.jpg
 order: 2
 ---
-

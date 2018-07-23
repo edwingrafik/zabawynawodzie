@@ -1,6 +1,7 @@
 ---
 layout: discipline
-title: Wakeboard
+title: wakeboard
+name: Wakeboard
 permalink: wakeboard
 desc: >-
   Wakeboard to sport wodny, który powstał z połączenia nart wodnych, surfingu i

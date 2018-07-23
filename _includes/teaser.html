@@ -4,36 +4,17 @@
   </div>
 </div>
 <div class="row container-flex mx-3">
+  {% for item in site.disciplines %}
   <div class="col-md-6 my-3">
-    <a href="#" class="hero-item hero-teaser">
+    <a href="{{ item.permalink }}" class="hero-item hero-teaser">
       <div class="hero-title">
-        <h2>Wakeboard</h2>
-        <h6>Jazda na desce za motorówką</h6>
+        <h2>{{ item.name }}</h2>
+        <h6>{{ item.short-desc }}</h6>
       </div>
-      <div class="hero-img" style="background-image: url('/img/steven-welch-124749-unsplash.jpg')">
+      <div class="hero-img" style="background-image: url('{{ item.thumbnail }}')">
       </div>
     </a>
   </div>
-  <div class="col-md-6 my-3">
-    <a href="#" class="hero-item hero-teaser">
-      <div class="hero-title">
-        <h2>Wakeboard</h2>
-        <h6>Jazda na desce za motorówką</h6>
-      </div>
-      <div class="hero-img" style="background-image: url('/img/steven-welch-124749-unsplash.jpg')">
-      </div>
-    </a>
-  </div>
-
-  <div class="col-md-6 my-3">
-    <a href="#" class="hero-item hero-teaser">
-      <div class="hero-title">
-        <h2>Wakeboard</h2>
-        <h6>Jazda na desce za motorówką</h6>
-      </div>
-      <div class="hero-img" style="background-image: url('/img/steven-welch-124749-unsplash.jpg')">
-      </div>
-    </a>
-  </div>
+  {% endfor %}
 </div>
 {% include svg-filters.html %}
