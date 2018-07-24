@@ -1,34 +1,9 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Zabawa na Wodzie
-email: odolski.tomasz@poczta.fm
-phone: +48 784 199 711
-address_1: Przystań YC PTTK Beskid w Znamirowicach
-address_2: Jezioro Rożnowskie - Nowy Sącz
-description: Zapraszamy do aktywnego spędzania czasu nad Jeziorem Rożnowskim. Wakeboard, narty wodne, koło, jazda motorówką i rejsy jachtem – po prostu zabawa na wodzie!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "vibrant-rosalind-6163f5.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
-brand-color: ff8a48
 
 logo:
   - file: logo-zabawy-na-wodzie.svg
     alt: logo-zabawy-na-wodzie
-
-  #- file: logo-wyblinka.svg
-    #alt: logo-wyblinka
 
 social:
   - social-media: facebook
@@ -57,20 +32,9 @@ compress_html:
   ignore:
   envs: []
 
-nav:
-  - title: O nas
-    url: o-nas
-
 copyrights: Zabawy na Wodzie
 authors: www.edwingrafik.com
 authors-external-url: https://edwingrafik.com/
-
-header_pages:
- - aktualnosci.html
- - oferta.html
- - cennik.html
- - galeria.html
- - kontakt.html
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -87,29 +51,21 @@ header_pages:
 collections:
   subpages:
     output: true
-    permalink: /:path/
 
-motorboat:
-  - file: motorowka-P5311370.jpg
-    alt:
-    caption: Moto 1
+  pricing:
+    output: true
 
-  - file: motorowka-P5311379.jpg
-    alt:
-    caption: Moto 2
+  offer:
+    output: true
 
-  - file: motorowka-P5311393.jpg
-    alt:
-    caption: Moto 3
+  contact:
+    output: true
 
-  - file: motorowka-P5311416.jpg
-    alt:
-    caption: Moto 4
+  disciplines:
+    output: true
 
-  - file: motorowka-P6031609.jpg
-    alt:
-    caption: Moto 5
-
-  - file: motorowka-P6031613.jpg
-    alt:
-    caption: Moto 6
+defaults:
+  - scope:
+      path: "images/uploads"
+    values:
+      image: true

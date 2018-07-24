@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<article class="row no-gutters">
+  <div class="col-md-12">
+    <div class="blurb mt-5 margin-left">
+      <h1 class="mb-3 text-uppercase font-weight-bold">{{ page.name }}</h1>
+    </div>
+  </div>
+  <div class="mx-3 mb-5">
+    <div class="col">
+      <div class="row">
+        <div class="col-md-6 col-xs-12">
+          <p>{{ page.desc }}</p>
+        </div>
+        <div class="col-md-6 col-xs-12">
+          {% if page.video %}
+          <div class="embed-responsive embed-responsive-16by9 my-3">
+            <iframe class="embed-responsive-item" src="{{ page.video }}" frameborder="0" allowfullscreen></iframe>
+          </div>
+          {% endif %}
+          {% include lightbox-controls.html %}
+          <div class="lightbox-gallery">
+            <div class="row no-gutters">
+            {% for item in page.gallery %}
+            <figure class="img-container col-md-4 col-xs-12" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="{{ item.image }}" data-size="1080x720" itemprop="contentUrl">
+                <img src="{{ item.image }}" alt="{{ item.alt }}" class="image" itemprop="thumbnail">
+                <div class="img-overlay">
+                  <span class="img-caption">{{ page.name }}</span>
+                </div>
+              </a>
+              <figcaption itemprop="caption description">{{ page.title }}</figcaption>
+            </figure>
+            {% endfor %}
+            </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</article>

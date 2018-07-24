@@ -1,0 +1,19 @@
+---
+layout: default
+title: Cennik
+page-item:
+order: 20
+permalink: /cennik/
+---
+<div class="margin-left mt-5">
+  <h2>{{ page.title }}</h2>
+  <ul class="list-group col my-5 ml-0">
+    {% assign pricing = site.pricing | sort: 'order' %}
+      {% for entry in pricing %}
+      <li class="list-group-item">
+        <b>{{ entry.entry }}: </b>{{ entry.desc }}
+      </li>
+      {% endfor %}
+      <li class="list-group-item">Przy grupach zorganizowanych ceny ustalamy indywidualnie.</li>
+  </ul>
+</div>

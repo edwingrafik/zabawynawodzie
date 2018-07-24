@@ -45,12 +45,20 @@ collections:
         widget: "number"
         valueType: "int"
 
+      - label: "Link"
+        name: "permalink"
+        widget: "string"
+
   - name: "pricing"
     label: "Cennik"
     folder: "_pricing"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - label: "Nazwa"
+        name: "title"
+        widget: "string"
+
       - label: "Wpis"
         name: "entry"
         widget: "text"
@@ -58,3 +66,141 @@ collections:
       - label: "Opis"
         name: "desc"
         widget: "text"
+
+      - label: "Kolejność"
+        name: "order"
+        widget: "number"
+        valueType: "int"
+
+  - name: "offer"
+    label: "Oferta"
+    folder: "_offer"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: "Nazwa"
+        name: "title"
+        widget: "string"
+
+      - label: "Wpis"
+        name: "entry"
+        widget: "text"
+
+      - label: "Kolejność"
+        name: "order"
+        widget: "number"
+        valueType: "int"
+
+  - name: "title"
+    label: "Dane strony"
+    folder: "_contact"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: "Nazwa strony"
+        name: "title"
+        widget: "text"
+
+      - label: "Właściciel strony"
+        name: "owner"
+        widget: "text"
+
+      - label: "E-mail"
+        name: "email"
+        widget: "text"
+
+      - label: "Telefon"
+        name: "phone"
+        widget: "text"
+
+      - label: "Adres 1"
+        name: "address_1"
+        widget: "text"
+
+      - label: "Adres 2"
+        name: "address_2"
+        widget: "text"
+
+      - label: "Mapa"
+        name: "map"
+        widget: "text"
+        required: false
+
+      - label: "Social"
+        name: "social"
+        widget: "text"
+
+      - label: "Opis META"
+        name: "description"
+        widget: "text"
+
+      - label: "Brand color"
+        name: "brand-color"
+        widget: "text"
+
+  - name: "disciplines"
+    label: "Dyscypliny"
+    folder: "_disciplines"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: "nazwa-wpisu"
+        name: "title"
+        widget: "text"
+        required: true
+
+      - label: "Nazwa sportu"
+        name: "name"
+        widget: "text"
+        required: true
+
+      - label: "Link"
+        name: "permalink"
+        widget: "string"
+        required: true
+
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "discipline"
+
+      - label: "Opis"
+        name: "desc"
+        widget: "text"
+        required: false
+
+      - label: "Krótki opis"
+        name: "short-desc"
+        widget: "text"
+        required: false
+
+      - label: "Film"
+        name: "video"
+        widget: "text"
+        required: false
+
+      - label: "Miniaturka"
+        name: "thumbnail"
+        widget: "image"
+        default: "/images/uploads/default.jpg"
+        required: false
+
+      - label: "Zdjęcia"
+        name: "gallery"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Zdjęcie"
+            name: "image"
+            widget: "image"
+            default: "/images/uploads/default.jpg"
+
+          - label: "Alt tekst"
+            name: "alt"
+            widget: "text"
+            default: "Zabawa na wodzie"
+
+      - label: "Kolejność"
+        name: "order"
+        widget: "number"
+        valueType: "int"

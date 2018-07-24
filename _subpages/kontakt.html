@@ -1,0 +1,34 @@
+---
+layout: default
+title: Kontakt
+order: 40
+permalink: /kontakt/
+---
+{% assign contact = site.contact %}
+{% for item in contact %}
+<div class="row no-gutters contact">
+  {% if item.map %}
+  <div class="col-md-12 map">
+    {{ item.map }}
+  </div>
+  {% endif %}
+  <div class="col-md-12">
+    <div class="blurb mt-5 margin-left">
+      <h1 class="mb-3 text-uppercase font-weight-bold">Kontakt</h1>
+    </div>
+    <div class="margin-left">
+      <span>{{ item.owner }}</span>
+      <br>
+      <span><b>e-mail: </b> <a href="mailto:{{ item.email }}" class="hover-links" target="_top">{{ item.email }}</a></span>
+      <br>
+      <span><b>telefon: </b><a href="tel:{{ item.phone }}" class="hover-links">{{ item.phone }}</a></span>
+      <br>
+      <span><b>adres: </b>{{ item.address_1 }}</span>
+      <br>
+      <span>{{ item.address_2 }}</span>
+      <br>
+      <span>Można się także kontaktować przez naszą <a href="{{ item.social }}" class="text-link">stronę na FB</a></span>
+    </div>
+  </div>
+</div>
+{% endfor %}
