@@ -11,15 +11,17 @@ permalink: /galeria/
   <div class="lightbox-gallery">
     <div class="row no-gutters">
     {% for image in image_files %}
-    <figure class="img-container col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="{{ image.path }}" data-size="1080x720" itemprop="contentUrl">
-        <img src="{{ image.path }}" alt="" class="image" itemprop="thumbnail">
-        <div class="img-overlay">
-          <span class="img-caption">{{ image.basename }}</span>
-        </div>
-      </a>
-      <figcaption itemprop="caption description"></figcaption>
-    </figure>
+      <div class="col-lg-3 col-md-4 col-6">
+      <figure class="img-container" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="{{ image.path }}" data-size="1080x720" itemprop="contentUrl">
+          <img src="{{ image.path }}" alt="" class="image" itemprop="thumbnail">
+          <div class="img-overlay">
+            <span class="img-caption">{{ image.basename }}</span>
+          </div>
+        </a>
+        <figcaption itemprop="caption description"></figcaption>
+      </figure>
+    </div>
     {% endfor %}
     </div>
 </div>
