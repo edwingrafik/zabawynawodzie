@@ -14,10 +14,12 @@ layout: default
           <p>{{ page.desc }}</p>
         </div>
         <div class="col-md-6 col-12">
-          {% if page.video %}
+          {% if page.videos %}
+          {% for item in page.videos %}
           <div class="embed-responsive embed-responsive-16by9 my-3">
-            <iframe class="embed-responsive-item" src="{{ page.video }}" frameborder="0" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="{{ item.video }}" frameborder="0" allowfullscreen></iframe>
           </div>
+          {% endfor %}
           {% endif %}
           {% include lightbox-controls.html %}
           <div class="lightbox-gallery">

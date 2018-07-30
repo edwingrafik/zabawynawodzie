@@ -174,10 +174,15 @@ collections:
         widget: "text"
         required: false
 
-      - label: "Film"
-        name: "video"
-        widget: "text"
+      - label: "Filmy"
+        name: "videos"
+        widget: "list"
         required: false
+        fields:
+          - label: "Film"
+            name: "video"
+            widget: "text"
+            required: "false"
 
       - label: "Miniaturka"
         name: "thumbnail"

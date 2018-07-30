@@ -16,7 +16,9 @@ desc: >-
   holowania narciarza wodnego lub innych obiektów pływających wydane przez
   Polski Związek Motorowodny i Narciarstwa Wodnego.
 short-desc: Jazda na desce za motorówką
-video: 'https://www.youtube.com/embed/E-g23LJBwQU'
+videos:
+  - video: 'https://www.youtube.com/embed/E-g23LJBwQU'
+  - video: 'https://www.youtube.com/embed/GfzMXlhjnbk'
 thumbnail: /images/uploads/steven-welch-124749-unsplash.jpg
 gallery:
   - alt: Wakeboard
@@ -79,4 +81,3 @@ gallery:
     image: /images/uploads/wake29.jpg
 order: 1
 ---
-
