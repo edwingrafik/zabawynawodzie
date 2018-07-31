@@ -1,6 +1,6 @@
 ---
 title: motorowka
-entry: przejażdżki motorówką
+entry: Rekreacyjne przejażdżki motorówką
 order: 3
 ---
 
