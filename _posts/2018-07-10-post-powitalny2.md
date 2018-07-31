@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Post powitalny 2
+title: Wakacyjna promocja
 subtitle: Witamy na naszej stronie!
 title-img: /img/mexico-88768_1920.jpg
 ---
-Sezon wakacyjny w pełni, zatem zapraszamy na zabawę na wodzie. Jeśli szukasz sposobu na aktywny wypoczynek, dobrze trafiłeś. Polecamy zwłaszcza wakeboard oraz koło. Nie jest potrzebne wcześniejsze przygotowanie. Znajdziecie nas w Znamirowicach nad Jeziorem Rożnowskim. Do zobaczenia!
+Zapraszamy na wakacyjną promocję! Z okazji uaplnego lata wakeboard, koło i jazda na motorówce tylko 30 zł za 15 minut jazdy! Polecamy:)
