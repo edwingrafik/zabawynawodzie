@@ -19,7 +19,6 @@ short-desc: Jazda na desce za motorówką
 videos:
   - video: 'https://www.youtube.com/embed/E-g23LJBwQU'
   - video: 'https://www.youtube.com/embed/GfzMXlhjnbk'
-  - {}
 thumbnail: /images/uploads/wakeboard_roznowskie-.jpg
 gallery:
   - alt: Wakeboard
