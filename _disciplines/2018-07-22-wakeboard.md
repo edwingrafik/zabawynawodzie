@@ -19,6 +19,7 @@ short-desc: Jazda na desce za motorówką
 videos:
   - video: 'https://www.youtube.com/embed/E-g23LJBwQU'
   - video: 'https://www.youtube.com/embed/GfzMXlhjnbk'
+  - {}
 thumbnail: /images/uploads/wakeboard_roznowskie-.jpg
 gallery:
   - alt: Wakeboard
@@ -85,6 +86,40 @@ gallery:
     image: /images/uploads/wakeboard_roznowskie-3.jpg
   - alt: Wakeboard Jezioro Rożnowskie
     image: /images/uploads/wakeboard_roznowskie-4.jpg
+  - alt: Wakeboard Jezioro Rożnowskie
+    image: /images/uploads/wakeboard_roznowskie-5.jpg
+  - alt: Wakeboard Jezioro Rożnowskie
+    image: /images/uploads/wakeboard_roznowskie-6.jpg
+  - alt: Wakeboard Jezioro Rożnowskie
+    image: /images/uploads/wakeboard_roznowskie-7.jpg
+  - alt: Wakeboard Jezioro Rożnowskie
+    image: /images/uploads/wakeboard_roznowskie-8.jpg
+  - alt: Wakeboard Jezioro Rożnowskie
+    image: /images/uploads/wakeboard_roznowskie-9.jpg
+  - alt: Wakeboard Jezioro Rożnowskie
+    image: /images/uploads/wakeboard_roznowskie-10.jpg
+  - alt: Wakeboard Jezioro Rożnowskie
+    image: /images/uploads/wakeboard_roznowskie-11.jpg
+  - alt: Wakeboard Jezioro Rożnowskie
+    image: /images/uploads/wakeboard_roznowskie-12.jpg
+  - alt: Wakeboard Jezioro Rożnowskie
+    image: /images/uploads/wakeboard_roznowskie-13.jpg
+  - alt: Wakeboard Jezioro Rożnowskie
+    image: /images/uploads/wakeboard_roznowskie-14.jpg
+  - alt: Wakeboard Jezioro Rożnowskie
+    image: /images/uploads/wakeboard_roznowskie-15.jpg
+  - alt: Wakeboard Jezioro Rożnowskie
+    image: /images/uploads/wakeboard_roznowskie-16.jpg
+  - alt: Wakeboard Jezioro Rożnowskie
+    image: /images/uploads/wakeboard_roznowskie-17.jpg
+  - alt: Wakeboard Jezioro Rożnowskie
+    image: /images/uploads/wakeboard_roznowskie-18.jpg
+  - alt: Wakeboard Jezioro Rożnowskie
+    image: /images/uploads/wakeboard_roznowskie-19.jpg
+  - alt: Wakeboard Jezioro Rożnowskie
+    image: /images/uploads/wakeboard_roznowskie-20.jpg
+  - alt: Wakeboard Jezioro Rożnowskie
+    image: /images/uploads/wakeboard_roznowskie-21.jpg
 order: 1
 ---
 
