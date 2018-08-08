@@ -32,8 +32,9 @@
 
 .hero-title h2 {
   background-color: $dark;
-  padding: $base-spacing;
   color: white;
+  font-size: 2em;
+  padding: $base-spacing;
   width: fit-content;
   width: -moz-fit-content;
 }

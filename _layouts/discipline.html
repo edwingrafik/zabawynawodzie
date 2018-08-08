@@ -10,21 +10,23 @@ layout: default
   <div class="mx-3 mb-5">
     <div class="col">
       <div class="row">
-        <div class="col-md-6 col-xs-12">
+        <div class="col-md-6 col-12">
           <p>{{ page.desc }}</p>
         </div>
-        <div class="col-md-6 col-xs-12">
-          {% if page.video %}
+        <div class="col-md-6 col-12">
+          {% if page.videos %}
+          {% for item in page.videos %}
           <div class="embed-responsive embed-responsive-16by9 my-3">
-            <iframe class="embed-responsive-item" src="{{ page.video }}" frameborder="0" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="{{ item.video }}" frameborder="0" allowfullscreen></iframe>
           </div>
+          {% endfor %}
           {% endif %}
           {% include lightbox-controls.html %}
           <div class="lightbox-gallery">
             <div class="row no-gutters">
             {% for item in page.gallery %}
-            <figure class="img-container col-md-4 col-xs-12" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-              <a href="{{ item.image }}" data-size="1080x720" itemprop="contentUrl">
+            <figure class="img-container col-lg-4 col-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="{{ item.image }}" data-size="900x600" itemprop="contentUrl">
                 <img src="{{ item.image }}" alt="{{ item.alt }}" class="image" itemprop="thumbnail">
                 <div class="img-overlay">
                   <span class="img-caption">{{ page.name }}</span>

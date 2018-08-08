@@ -13,18 +13,46 @@ desc: >-
 short-desc: Rekreacyjna przejażdżka po jeziorze
 thumbnail: /images/uploads/motorowka-p5311379.jpg
 gallery:
-  - alt: przejażdżki motorówką
-    image: /images/uploads/motorowka-p5311370.jpg
-  - alt: przejażdżki motorówką
-    image: /images/uploads/motorowka-p5311379.jpg
-  - alt: przejażdżki motorówką
-    image: /images/uploads/motorowka-p5311393.jpg
-  - alt: przejażdżki motorówką
-    image: /images/uploads/motorowka-p5311416.jpg
-  - alt: przejażdżki motorówką
-    image: /images/uploads/motorowka-p6031609.jpg
-  - alt: przejażdżki motorówką
-    image: /images/uploads/motorowka-p6031613.jpg
+  - alt: Motorówka
+    image: /images/uploads/motorowka-1.jpg
+  - alt: Motorówka
+    image: /images/uploads/motorowka-2.jpg
+  - alt: Motorówka
+    image: /images/uploads/motorowka-3.jpg
+  - alt: Motorówka
+    image: /images/uploads/motorowka-4.jpg
+  - alt: Motorówka
+    image: /images/uploads/motorowka-5.jpg
+  - alt: Motorówka
+    image: /images/uploads/motorowka-6.jpg
+  - alt: Motorówka
+    image: /images/uploads/motorowka-7.jpg
+  - alt: Motorówka
+    image: /images/uploads/motorowka-8.jpg
+  - alt: Motorówka
+    image: /images/uploads/motorowka-9.jpg
+  - alt: Motorówka
+    image: /images/uploads/motorowka-10.jpg
+  - alt: Motorówka
+    image: /images/uploads/motorowka-11.jpg
+  - alt: Motorówka
+    image: /images/uploads/motorowka-12.jpg
+  - alt: Motorówka
+    image: /images/uploads/motorowka-13.jpg
+  - alt: Motorówka
+    image: /images/uploads/motorowka-14.jpg
+  - alt: Motorówka
+    image: /images/uploads/motorowka-15.jpg
+  - alt: Motorówka
+    image: /images/uploads/motorowka-16.jpg
+  - alt: Motorówka
+    image: /images/uploads/motorowka-17.jpg
+  - alt: Motorówka
+    image: /images/uploads/motorowka-18.jpg
+  - alt: Motorówka
+    image: /images/uploads/motorowka-19.jpg
+  - alt: Motorówka
+    image: /images/uploads/motorowka-20.jpg
 order: 4
 ---
 
