@@ -19,7 +19,7 @@ short-desc: Jazda na desce za motorówką
 videos:
   - video: 'https://www.youtube.com/embed/E-g23LJBwQU'
   - video: 'https://www.youtube.com/embed/GfzMXlhjnbk'
-thumbnail: /images/uploads/steven-welch-124749-unsplash.jpg
+thumbnail: /images/uploads/wakeboard_roznowskie-.jpg
 gallery:
   - alt: Wakeboard
     image: /images/uploads/wake1.jpg
@@ -79,5 +79,12 @@ gallery:
     image: /images/uploads/wake28.jpg
   - alt: Wakeboard
     image: /images/uploads/wake29.jpg
+  - alt: Wakeboard Jezioro Rożnowskie
+    image: /images/uploads/wakeboard_roznowskie-2.jpg
+  - alt: Wakeboard Jezioro Rożnowskie
+    image: /images/uploads/wakeboard_roznowskie-3.jpg
+  - alt: Wakeboard Jezioro Rożnowskie
+    image: /images/uploads/wakeboard_roznowskie-4.jpg
 order: 1
 ---
+
